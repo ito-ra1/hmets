@@ -207,27 +207,31 @@ Some platforms only aggregate metadata related to a specific region, for example
 
 Some examples of international, multidisciplinary metadata aggregators include the European open science project [OpenAIRE](https://explore.openaire.eu/), the Canadian [Federated Research Data Repository (FRDR)](https://www.frdr-dfdr.ca/repo/?locale=en), and [LA Referencia](https://www.lareferencia.info/en/) in Latin America. Commercial aggregators such as [Clarivate's Data Citation Index(DCI)](https://clarivate.com/webofsciencegroup/solutions/webofscience-data-citation-index/), and [Elsevier's Mendeley Data](https://data.mendeley.com/) also aggregate data from all regions and subject domains.
 
-### Making choices
+## Making choices
 When choosing metadata aggregator(s), there are a few things to consider:
 
 ### Your community
-<div style="margin-left: 1em;">What data practices are established, or emerging in your community?</div>
-<div style="margin-left: 1em;">What harvesters or repositories are being used in your subject area?</div>
+- What data practices are established, or emerging in your community?
+- What harvesters or repositories are being used in your subject area?
 
 ### Findability goals
-<div style="margin-left: 1em;">Who needs to be able to find your data?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Aggregators target different subject domains. Some serve a general class of users and others have added functions that may appeal to some user groups only.*</div>
-<div style="margin-left: 1em;">Where are your target users searching?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Your data community has established practices around data sharing and searching. If you're targeting users outside your community, find out about their practices to adapt your efforts accordingly.*</div>
-<div style="margin-left: 1em;">What information is relevant to them?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Choose metadata standards that reflect the needs of target users. Rich metadata serves specialist communities, while high-level metadata makes your data visible to the general public, media, government and funding agencies, etc.*</div>
+#### Who needs to be able to find your data?
+- Aggregators target different subject domains. Some serve a general class of users and others have added functions that may appeal to some user groups only.
+
+#### Where are your target users searching?
+- Your data community has established practices around data sharing and searching. If you're targeting users outside your community, find out about their practices to adapt your efforts accordingly.
+
+#### What information is relevant to them?
+- Choose metadata standards that reflect the needs of target users. Rich metadata serves specialist communities, while high-level metadata makes your data visible to the general public, media, government and funding agencies, etc.
 
 ### Interoperability
-<div style="margin-left: 1em;">How far will your current infrastructure take you?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Find services that already support your existing metadata and endpoints/protocols.*
-<span style='font-size:23px;'>&#8667;</span>*Software modules can bridge the gap between your (custom) repository and the harvester, e.g. [Viringo](https://github.com/datacite/viringo), used by DataCite and FRDR, or [pycsw](https://pycsw.org/), an open-source implementation of the [OGC CSW](https://docs.opengeospatial.org/is/12-168r6/12-168r6.html) standard for catalogue services.*</div>
-<div style="margin-left: 1em;">Is your repository platform not supported by default?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Ask aggregators about custom support options!*</div>
+#### How far will your current infrastructure take you?
+- Find services that already support your existing metadata and endpoints/protocols.
+- Software modules can bridge the gap between your (custom) repository and the harvester, e.g. [Viringo](https://github.com/datacite/viringo), used by DataCite and FRDR, or [pycsw](https://pycsw.org/), an open-source implementation of the [OGC CSW](https://docs.opengeospatial.org/is/12-168r6/12-168r6.html) standard for catalogue services.
+
+#### Is your repository platform not supported by default?
+- Ask aggregators about custom support options!
+
 
 ### Your options:
 1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/>`<<textarea "$aggrlist" "">>*[optional]*  <<button [[Submit & continue|Metadata interoperability]]>><</button>>`
@@ -292,23 +296,23 @@ Some examples of international, multidisciplinary metadata aggregators include t
 When choosing metadata aggregator(s), there are a few things to consider:
 
 ### Your community
-<div style="margin-left: 1em;">What data practices are established, or emerging in your community?</div>
-<div style="margin-left: 1em;">What harvesters or repositories are being used in your subject area?</div>
+- What data practices are established, or emerging in your community?</div>
+- What harvesters or repositories are being used in your subject area?</div>
 
 ### Findability goals
-<div style="margin-left: 1em;">Who needs to be able to find your data?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Aggregators target different subject domains. Some serve a general class of users and others have added functions that may appeal to some user groups only.*</div>
-<div style="margin-left: 1em;">Where are your target users searching?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Your data community has established practices around data sharing and searching. If you're targeting users outside your community, find out about their practices to adapt your efforts accordingly.*</div>
-<div style="margin-left: 1em;">What information is relevant to them?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Choose metadata standards that reflect the needs of target users. Rich metadata serves specialist communities, while high-level metadata makes your data visible to the general public, media, government and funding agencies, etc.*</div>
+- Who needs to be able to find your data?</div>
+- *Aggregators target different subject domains. Some serve a general class of users and others have added functions that may appeal to some user groups only.*</div>
+- Where are your target users searching?</div>
+- *Your data community has established practices around data sharing and searching. If you're targeting users outside your community, find out about their practices to adapt your efforts accordingly.*</div>
+- What information is relevant to them?</div>
+- *Choose metadata standards that reflect the needs of target users. Rich metadata serves specialist communities, while high-level metadata makes your data visible to the general public, media, government and funding agencies, etc.*</div>
 
 ### Interoperability
-<div style="margin-left: 1em;">How far will your current infrastructure take you?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Find services that already support your existing metadata and endpoints/protocols.*
-<span style='font-size:23px;'>&#8667;</span>*Software modules can bridge the gap between your (custom) repository and the harvester, e.g. [Viringo](https://github.com/datacite/viringo), used by DataCite and FRDR, or [pycsw](https://pycsw.org/), an open-source implementation of the [OGC CSW](https://docs.opengeospatial.org/is/12-168r6/12-168r6.html) standard for catalogue services.*</div>
-<div style="margin-left: 1em;">Is your repository platform not supported by default?</div>
-<div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Ask aggregators about custom support options!*</div>
+- How far will your current infrastructure take you?</div>
+- *Find services that already support your existing metadata and endpoints/protocols.*
+*Software modules can bridge the gap between your (custom) repository and the harvester, e.g. [Viringo](https://github.com/datacite/viringo), used by DataCite and FRDR, or [pycsw](https://pycsw.org/), an open-source implementation of the [OGC CSW](https://docs.opengeospatial.org/is/12-168r6/12-168r6.html) standard for catalogue services.*</div>
+- Is your repository platform not supported by default?</div>
+- *Ask aggregators about custom support options!*</div>
 
 ### Your options:
 1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/>`<<textarea "$aggrlist" "">>*[optional]*  <<button [[Submit & continue|Metadata interoperability]]>><</button>>`
@@ -623,31 +627,19 @@ To what extent does your repository's host organization provide material and oth
 
 ### d) Difficulties/Challenges
 *Can you think of any other expected difficulties or challenges in data sharing? Some examples could be:
-
-## Are you sharing open data or will a data sharing agreement or privacy controls be required?
-
-## Do you have an existing research data  management plan or contract that you need to satisfy or a governance structure that needs to approve of your repository development plan?
-
-## What are the causes of these difficulties, and/or possible measures to overcome them.*
+Are you sharing open data or will a data sharing agreement or privacy controls be required?
+Do you have an existing research data  management plan or contract that you need to satisfy or a governance structure that needs to approve of your repository development plan?
+What are the causes of these difficulties, and/or possible measures to overcome them?*
 `<<print $challenges>>`
 
 ### 7. Evaluation framework
-
 ### a) Metrics
-
-## Landing page views: `<<if $views is true>>Yes<<elseif $view is false>>No<<else>>Yes / No<</if>>`
-
-## Dataset downloads: `<<if $downloads is true>>Yes<<elseif $downloads is false>>No<<else>>Yes / No<</if>>`
-
-## Reuse in research: scholarly citations (e.g. with DOI and other PIDs). `<<if $citations is true>>Yes<<elseif $citations is false>>No<<else>>Yes / No<</if>>`
-
-## References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.: `<<if $mentions is true>>Yes<<elseif $mentions is false>>No<<else>>Yes / No<</if>>`
-
-## Reuse by aggregation into other data products or services: `<<if $aggreuse is true>>Yes<<elseif $aggreuse is false>>No<<else>>Yes / No<</if>>`
-
-## Educational use: Appearance in course syllabi, workshops, etc.: `<<if $educational is true>>Yes<<elseif $educational is false>>No<<else>>Yes / No<</if>>`
-
-## Others: `<<if $ot is true>><<print $othermetrics>><<elseif $ot is false>>No<<else>>*Please specify:*<</if>>`
+Landing page views: `<<if $views is true>>Yes<<elseif $view is false>>No<<else>>Yes / No<</if>>`
+Dataset downloads: `<<if $downloads is true>>Yes<<elseif $downloads is false>>No<<else>>Yes / No<</if>>`Reuse in research: scholarly citations (e.g. with DOI and other PIDs). `<<if $citations is true>>Yes<<elseif $citations is false>>No<<else>>Yes / No<</if>>`
+References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.: `<<if $mentions is true>>Yes<<elseif $mentions is false>>No<<else>>Yes / No<</if>>`
+Reuse by aggregation into other data products or services: `<<if $aggreuse is true>>Yes<<elseif $aggreuse is false>>No<<else>>Yes / No<</if>>`
+Educational use: Appearance in course syllabi, workshops, etc.: `<<if $educational is true>>Yes<<elseif $educational is false>>No<<else>>Yes / No<</if>>`
+Others: `<<if $ot is true>><<print $othermetrics>><<elseif $ot is false>>No<<else>>*Please specify:*<</if>>`
 
 ### b) Benchmarks and methods
 *Could you give a brief description of the framework you plan to use to assess and evaluate an HMetS implementation at your repository?*
