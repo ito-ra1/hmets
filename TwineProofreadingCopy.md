@@ -85,8 +85,8 @@ Before approaching the instance that will make a decision about your request to 
 - Whyte, A. & Tedds, J. (2011) [Making the case for research data management.](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm)
 
 ### You asked the authority, and:
-<<button [[permission was obtained|Expected outcomes]]>><</button>>
-<<button [[permission was refused|Pre-final]]>><</button>>  
+1. <<button [[permission was obtained|Expected outcomes]]>><</button>>
+2. <<button [[permission was refused|Pre-final]]>><</button>>  
 
 ----------------------------------------
 # Passage Name: Expected outcomes
@@ -146,8 +146,8 @@ Depending on the size of your repository and the state of metadata in your repos
 ### Your options
 Upon reviewing the metadata resources, were you able to create a catalogue for your repository, or improve your repository's metadata to an interoperable standard?
 
-<<button [[Yes, you now have a catalogue of well-formed metadata.|Metadata standards]]>><</button>>       
-<<button [[No. You found that you currently lack the resources to create a catalogue or improve your existing metadata.|Pre-final]]>><</button>>
+1. <<button [[Yes, you now have a catalogue of well-formed metadata.|Metadata standards]]>><</button>>       
+2. <<button [[No. You found that you currently lack the resources to create a catalogue or improve your existing metadata.|Pre-final]]>><</button>>
 
 ----------------------------------------
 # Passage Name: Metadata standards
@@ -190,10 +190,10 @@ This approach relies on structured metadata that is schema-based and serialized 
 Within the RDM community, semantic aggregation occurs most frequently  with SDO metadata markup (specifically, [Schema.org](https://schema.org/), pronounced *Schema Dot Org*, or SDO) in a repository or data catalogue. SDO is a controlled vocabulary used to mark up content in a webpage in a way that search engines can understand. The core SDO vocabulary is constantly under development, and it grows in response to use cases across many communities. SDO can be used to describe many different things (“object types”) referred to in a webpage, including recipes, job posts, book reviews and in our case, datasets and data catalogues. Dataset landing pages, which contain datasert metadata records, are marked up with SDO terms and web crawlers such as [Google Dataset Search (GDSS)](https://datasetsearch.research.google.com/) index these tags and use them to populate their search results. For more on semantic aggregation, we recommend reading ‘Thing 3: Semantics and Schema.org’ in the [14 Metadata Syndication things](https://doi.org/10.5281/zenodo.4589084) guide.
 
 ### I am interested in:
-<<button [[traditional aggregation only|Aggregators]]>><</button>>
-<<button [[semantic aggregation only|Semantic metadata]]>><</button>>
-<<button [[both traditional and semantic aggregation|Both-Semantic]]>><</button>>
-<<button [[none of them|Pre-final]]>><</button>>
+1. <<button [[traditional aggregation only|Aggregators]]>><</button>>
+2. <<button [[semantic aggregation only|Semantic metadata]]>><</button>>
+3. <<button [[both traditional and semantic aggregation|Both-Semantic]]>><</button>>
+4. <<button [[none of them|Pre-final]]>><</button>>
 
 ----------------------------------------
 # Passage Name: Aggregators
@@ -252,8 +252,8 @@ Were you able to identify any aggregators that support the current metadata stan
 <<textarea "$newstandards" "">><small>*[optional]*</small>
 
 Looking at the gaps between the current state of your catalogue and the required standards, you decide to:
-<<button [[continue with the original plan to create a harvestable metadata service|Protocol interoperability]]>><</button>>
-<<button [[postpone this project.|Pre-final]]>><</button>>
+1. <<button [[continue with the original plan to create a harvestable metadata service|Protocol interoperability]]>><</button>>
+2. <<button [[postpone this project.|Pre-final]]>><</button>>
 
 ----------------------------------------
 # Passage Name: Semantic metadata
@@ -465,8 +465,8 @@ Please describe the causes of these difficulties, and any possible measures to o
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated.
 
 ### Please choose an option:
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
 
 <<elseif $congrats is "t" and $servicetype is "both">>
 
@@ -474,8 +474,8 @@ You have reached the end of the implementation plan walk-through and you are rea
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated. You are ready to start tackling semantic metadata aggregation for your repository as well! 
 
 ### Please choose an option:
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
 
 <<elseif $servicetype is "semantic">>
 
@@ -483,8 +483,8 @@ You have reached the end of the implementation plan walk-through and you are rea
 You have reached the end of the implementation plan walk-through and you are ready to start tackling semantic metadata aggregation for your repository. 
 
 ### Please choose an option:
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
 
 <<elseif $authority is "ask">>
 
@@ -492,9 +492,9 @@ You have reached the end of the implementation plan walk-through and you are rea
 You may need to shelve this project until it's institutionally possible.
 
 ### Until then, please choose an option:
-<<button [[Try again (restart the walk-through)|Hello]]>><</button>>
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving|Game over]]>><</button>> 
+1. <<button [[Try again (restart the walk-through)|Hello]]>><</button>>
+2. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+3. <<button [[End the walk-through without saving|Game over]]>><</button>> 
 
 <<elseif $metadatafail is "true">>
 
@@ -502,8 +502,8 @@ You may need to shelve this project until it's institutionally possible.
 You may need to shelve this project until your catalogue and metadata are up to the standard you need.
 
 ### Until then, please choose an option:
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
 
 <<elseif $servicetype is "none" or $aggrservice is "postpone" or $aggrprotocol is "notmatch">>
 
@@ -511,8 +511,8 @@ You may need to shelve this project until your catalogue and metadata are up to 
 You can come back later to make a plan that maximizes your datasets’ impact and reach by making the best of your current metadata services.
 
 ### Until then, please choose an option:
-<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-<<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
+2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
 
 <<else>>
 <</if>>
