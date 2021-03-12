@@ -3,9 +3,9 @@
 
 This site is an interactive guide through the process of planning and implementing harvestable metadata services at a research data repository. You'll find links and references to other online resources at every step.
 
-How to use this site: <<button "Instructions">><</button>>
+How to use this site: `<<button "Instructions">><</button>>`
 
-For more information, please go to the <<button "Site Documentation">><</button>>.
+For more information, please go to the `<<button "Site Documentation">><</button>>`.
 __Last Update:__ March 8, 2021
 Powered by [Twine](https://twinery.org/)
 
@@ -43,23 +43,23 @@ As you continue to gain insight into the aggregation landscape, and as you progr
 
 At the end of the walk-through, you'll have the option to print out a semi-customized implementation plan draft for your repository. The full template document (not customized) can be downloaded [here](https://drive.google.com/file/d/1__nsZNXswpmYwJHsNKgDc57rBmKjba-B/view?usp=sharing).
 
-<<button [[Get started!|Repository basics]]>><</button>>
+`<<button [[Get started!|Repository basics]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Repository basics
 
 ## Repository and institution
-What is the name of your repository? <<textbox "$repository" "">><small>*[optional]*</small>
-What is/are the name(s) of your repository's host organization(s)?<<textbox "$orgname" "">><small>*[optional]*</small>
+What is the name of your repository? `<<textbox "$repository" "">>`*[optional]*
+What is/are the name(s) of your repository's host organization(s)?`<<textbox "$orgname" "">>`*[optional]*
 How would you describe your repository's stakeholders and user base? You can define your stakeholders as the users of your repository's data, or more broadly as anyone who will benefit from this project, e.g. institutions wanting to strengthen their international/interdisciplinary profile, or promote their research outputs/data assets.
-<<textarea "$stakeholders" "">><small>*[optional]*</small>
+`<<textarea "$stakeholders" "">>`*[optional]*
 
 ### Next steps
 Do you have the authority to spearhead a project of this nature, or have you already been given clearance to do so by someone who has that authority?
 
-1. Yes, you have that authority. <<button [[Start planning|Expected outcomes]]>><</button>>
+1. Yes, you have that authority. `<<button [[Start planning|Expected outcomes]]>><</button>>`
 
-2. You need to ask for authorization before moving forward with this project.  <<button [[Get permission!|Making the case]]>><</button>>
+2. You need to ask for authorization before moving forward with this project.  `<<button [[Get permission!|Making the case]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Making the case
@@ -85,8 +85,8 @@ Before approaching the instance that will make a decision about your request to 
 - Whyte, A. & Tedds, J. (2011) [Making the case for research data management.](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm)
 
 ### You asked the authority, and:
-1. <<button [[permission was obtained|Expected outcomes]]>><</button>>
-2. <<button [[permission was refused|Pre-final]]>><</button>>  
+1. `<<button [[permission was obtained|Expected outcomes]]>><</button>>`
+2. `<<button [[permission was refused|Pre-final]]>><</button>>`  
 
 ----------------------------------------
 # Passage Name: Expected outcomes
@@ -97,14 +97,14 @@ This section is to help you formulate your general goals and the expected outcom
 
 **Goals**
 Which goals are you striving for with the implementation of harvestable metadata services? 
-<<textarea "$goals" "">><small>*[optional]*</small>
+`<<textarea "$goals" "">>`*[optional]*
 
 **Expected Outcomes**
 What outcomes would you expect to see? If possible, indicate a time frame in which you'd expect these changes to occur.
-<<textarea "$outcomes" "">><small>*[optional]*</small>
-<<button [[Submit & continue|Catalogue]]>><</button>>
+`<<textarea "$outcomes" "">>`*[optional]*
+`<<button [[Submit & continue|Catalogue]]>><</button>>`
 
-Or if you'd rather not provide that information yet:  <<button[[Skip to the next step|Catalogue]]>><</button>>
+Or if you'd rather not provide that information yet:  `<<button[[Skip to the next step|Catalogue]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Catalogue
@@ -121,11 +121,11 @@ The first thing you will need is a catalogue of well-formed metadata.
 
 ### Does your repository already have a catalogue with standardized metadata?
 
-1. Yes, you already have a catalogue. <<button [[Continue|Metadata standards]]>><</button>>
+1. Yes, you already have a catalogue. `<<button [[Continue|Metadata standards]]>><</button>>`
 
-2. You have a metadata catalogue, but the metadata is not standardized.  <<button [[Improve your metadata catalogue|Almost metadata]]>><</button>>
+2. You have a metadata catalogue, but the metadata is not standardized.  `<<button [[Improve your metadata catalogue|Almost metadata]]>><</button>>`
 
-3. You do not have a metadata catalogue for your repository yet.  <<button [[Create your metadata catalogue|Almost metadata]]>><</button>>
+3. You do not have a metadata catalogue for your repository yet.  `<<button [[Create your metadata catalogue|Almost metadata]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Almost metadata
@@ -136,8 +136,8 @@ Different aggregators can support different metadata standards and transfer prot
 
 Here are some resources to get you started:
 - Riley, J. (2017). [Understanding metadata: What is metadata, and what is it for?](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Met%E2%80%A6) National	Information	Standards	Organization. 
-- ANDS (2016). <a href="https://www.ands.org.au/guides/metadata-working">Guide to Metadata (Working Level)</a>. 
-- Digital Curation Centre (n.d.). <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Disciplinary metadata.</a>
+- ANDS (2016). [Guide to Metadata (Working Level)](https://www.ands.org.au/guides/metadata-working).
+- Digital Curation Centre (n.d.). [Disciplinary metadata](https://www.dcc.ac.uk/guidance/standards/metadata).
 - Research Data Alliance Metadata Standards Directory Working Group (n.d.). [Metadata](http://rd-alliance.github.io/metadata-directory/).
 - Riley, J. (2018). [Seeing standards: A visualization of the metadata universe](https://doi.org/10.5683/SP2/UOHPVH).
 
@@ -146,8 +146,8 @@ Depending on the size of your repository and the state of metadata in your repos
 ### Your options
 Upon reviewing the metadata resources, were you able to create a catalogue for your repository, or improve your repository's metadata to an interoperable standard?
 
-1. <<button [[Yes, you now have a catalogue of well-formed metadata.|Metadata standards]]>><</button>>       
-2. <<button [[No. You found that you currently lack the resources to create a catalogue or improve your existing metadata.|Pre-final]]>><</button>>
+1. `<<button [[Yes, you now have a catalogue of well-formed metadata.|Metadata standards]]>><</button>>`       
+2. `<<button [[No. You found that you currently lack the resources to create a catalogue or improve your existing metadata.|Pre-final]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Metadata standards
@@ -158,8 +158,8 @@ Metadata that uses established, interoperable standards can be more easily trans
 (For more information and resources on metadata standards, take a quick detour through the [[Metadata|Almost metadata]] section)
 
 ### Your options:
-1. Name the metadata schema, standards and/or formats used in your repository <<textarea "$mdstandards" "">><small>*[optional]*</small>  <<button [[Submit & continue|Services & Protocols]]>><</button>>
-2. If you'd rather not provide that information yet, <<button[[skip to the next step|Services & Protocols]]>><</button>>
+1. Name the metadata schema, standards and/or formats used in your repository `<<textarea "$mdstandards" "">>*[optional]*  <<button [[Submit & continue|Services & Protocols]]>><</button>>`
+2. If you'd rather not provide that information yet, `<<button[[skip to the next step|Services & Protocols]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Services & Protocols
@@ -172,8 +172,8 @@ Some common protocols include the [Open Archives Initiative Protocol for Metadat
 Some repository platforms have a specific API that can connect to data services, like the [CKAN-API](https://ckan.org/portfolio/api/), or the [Dataverse API](https://guides.dataverse.org/en/latest/api/index.html). Aggregators may support one or many protocols, or APIs (see for example the extensive list of protocols supported by the [GEOSS Discovery and Access Broker.](https://www.geodab.net/))
 
 ### Your options:
-1. Metadata in your repository is being shared via the following services and/or protocols: <<textarea "$protocol" "">><small>*[optional]*</small>  <<button [[Submit & continue|New services]]>><</button>>
-2. If you'd rather not fill out this part yet, <<button [[skip to the next step|New services]]>><</button>>
+1. Metadata in your repository is being shared via the following services and/or protocols: `<<textarea "$protocol" "">>*[optional]*  <<button [[Submit & continue|New services]]>><</button>>`
+2. If you'd rather not fill out this part yet, `<<button [[skip to the next step|New services]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: New services
@@ -190,10 +190,10 @@ This approach relies on structured metadata that is schema-based and serialized 
 Within the RDM community, semantic aggregation occurs most frequently  with SDO metadata markup (specifically, [Schema.org](https://schema.org/), pronounced *Schema Dot Org*, or SDO) in a repository or data catalogue. SDO is a controlled vocabulary used to mark up content in a webpage in a way that search engines can understand. The core SDO vocabulary is constantly under development, and it grows in response to use cases across many communities. SDO can be used to describe many different things (“object types”) referred to in a webpage, including recipes, job posts, book reviews and in our case, datasets and data catalogues. Dataset landing pages, which contain datasert metadata records, are marked up with SDO terms and web crawlers such as [Google Dataset Search (GDSS)](https://datasetsearch.research.google.com/) index these tags and use them to populate their search results. For more on semantic aggregation, we recommend reading ‘Thing 3: Semantics and Schema.org’ in the [14 Metadata Syndication things](https://doi.org/10.5281/zenodo.4589084) guide.
 
 ### I am interested in:
-1. <<button [[traditional aggregation only|Aggregators]]>><</button>>
-2. <<button [[semantic aggregation only|Semantic metadata]]>><</button>>
-3. <<button [[both traditional and semantic aggregation|Both-Semantic]]>><</button>>
-4. <<button [[none of them|Pre-final]]>><</button>>
+1. `<<button [[traditional aggregation only|Aggregators]]>><</button>>`
+2. `<<button [[semantic aggregation only|Semantic metadata]]>><</button>>`
+3. `<<button [[both traditional and semantic aggregation|Both-Semantic]]>><</button>>`
+4. `<<button [[none of them|Pre-final]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Aggregators
@@ -230,30 +230,30 @@ When choosing metadata aggregator(s), there are a few things to consider:
 <div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Ask aggregators about custom support options!*</div>
 
 ### Your options:
-1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/><<textarea "$aggrlist" "">><small>*[optional]*</small>  <<button [[Submit & continue|Metadata interoperability]]>><</button>>
-2. I'd rather not fill out this part yet. <<button [[Skip to the next step|Metadata interoperability]]>><</button>>
+1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/>`<<textarea "$aggrlist" "">>*[optional]*  <<button [[Submit & continue|Metadata interoperability]]>><</button>>`
+2. I'd rather not fill out this part yet. `<<button [[Skip to the next step|Metadata interoperability]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Metadata interoperability
-<<if $aggrlist is "">>
+`<<if $aggrlist is "">>`
 
-## Metadata standards supported<<else>>
+## Metadata standards supported`<<else>>`
 
 ## Metadata standards supported
 Upon reviewing the documentation for **your selected aggregators: **
-<<print $aggrlist>>
-<</if>>
+`<<print $aggrlist>>`
+`<</if>>`
 Were you able to identify any aggregators that support the current metadata standards used by your repository? 
-**Your current metadata standards:** <<if $mdstandards is "">>*You prefer not to disclose this information at this stage.*<<else>><<print $mdstandards>><</if>>
+**Your current metadata standards:** `<<if $mdstandards is "">>*You prefer not to disclose this information at this stage.*<<else>><<print $mdstandards>><</if>>`
 
-## If yes, please elaborate:<<textbox "$interopmd" "">><small>*[optional]*</small>
+## If yes, please elaborate:`<<textbox "$interopmd" "">>`*[optional]*
 
 ## If no, what changes (schemas, vocabularies, application profiles) will your repository have to make in order to be aggregated?
-<<textarea "$newstandards" "">><small>*[optional]*</small>
+`<<textarea "$newstandards" "">>`*[optional]*
 
 Looking at the gaps between the current state of your catalogue and the required standards, you decide to:
-1. <<button [[continue with the original plan to create a harvestable metadata service|Protocol interoperability]]>><</button>>
-2. <<button [[postpone this project.|Pre-final]]>><</button>>
+1. `<<button [[continue with the original plan to create a harvestable metadata service|Protocol interoperability]]>><</button>>`
+2. `<<button [[postpone this project.|Pre-final]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Semantic metadata
@@ -275,7 +275,7 @@ Here are some resources for you to understand more about SDO and how to implemen
 
 Once you've found out more about schema.org, you'll be in a position to start its implementation.
 
-<<button [[End this walk-through|Pre-final]]>><</button>>
+`<<button [[End this walk-through|Pre-final]]>><</button>>`
 ----------------------------------------
 # Passage Name: Both-Aggregator
 
@@ -311,14 +311,14 @@ When choosing metadata aggregator(s), there are a few things to consider:
 <div style="margin-left: 2em;"><span style='font-size:23px;'>&#8667;</span>*Ask aggregators about custom support options!*</div>
 
 ### Your options:
-1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/><<textarea "$aggrlist" "">><small>*[optional]*</small>  <<button [[Submit & continue|Metadata interoperability]]>><</button>>
-2. I'd rather not fill out this part yet. <<button [[Skip to the next step|Metadata interoperability]]>><</button>>
+1. I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): <br/>`<<textarea "$aggrlist" "">>*[optional]*  <<button [[Submit & continue|Metadata interoperability]]>><</button>>`
+2. I'd rather not fill out this part yet. `<<button [[Skip to the next step|Metadata interoperability]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Both-Semantic
 
 ## Semantic metadata and Schema.org
-Semantic markup (i.e. Schema.org) is built into a metadata standard. As previously mentioned, <abbr title="Schema Dot Org">SDO</abbr> is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in [Google Dataset Search (GDSS)](https://datasetsearch.research.google.com/). 
+Semantic markup (i.e. Schema.org) is built into a metadata standard. As previously mentioned, Schema Dot Org (SDO) is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in [Google Dataset Search (GDSS)](https://datasetsearch.research.google.com/). 
 
 Importantly for those who manage sensitive or restricted data that are subject to privacy concerns, once a dataset is discovered in GDSS, the user is directed back to the repository to obtain the data. The access restrictions and protocols for data sharing remain as agreed upon during the submission process, and they are determined and maintained at the repository.
 
@@ -336,23 +336,23 @@ Once you've found out more about schema.org, you'll be in a position to start it
 
 ----------------------------------------
 # Passage Name: Protocol interoperability
-<<if $aggrlist is "">>
+`<<if $aggrlist is "">>`
 
-## Exposure protocols supported<<else>>
+## Exposure protocols supported`<<else>>`
 
 ## Exposure protocols supported
 Upon reviewing the documentation for **your selected aggregators:**
-<<print $aggrlist>>
-<</if>>
+`<<print $aggrlist>>`
+`<</if>>`
 Are your repository’s software elements, APIs, and/or protocols supported by your preferred aggregators?
 
-**Your repository’s exposure protocols:** <<if $protocol is "">>*[None selected]*<<else>><<print $protocol>><</if>>.
+**Your repository’s exposure protocols:** `<<if $protocol is "">>*[None selected]*<<else>><<print $protocol>><</if>>`.
 
-## If yes, <<button [[contact the selected aggregators and get harvested.|Measuring success]]>><</button>>
+## If yes, `<<button [[contact the selected aggregators and get harvested.|Measuring success]]>><</button>>`
 
 ## If no, what changes will your repository have to make in order to be aggregated?
-<<textarea "$newprotocols" "">><small>*[optional]*</small>
-<<button [[contact aggregator(s) directly to ask about custom support options.|Custom support]]>><</button>>
+`<<textarea "$newprotocols" "">>`*[optional]*
+`<<button [[contact aggregator(s) directly to ask about custom support options.|Custom support]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Custom support
@@ -360,62 +360,62 @@ Are your repository’s software elements, APIs, and/or protocols supported by y
 ## Requesting Custom Support for your Repository Platform
 Some services are able to provide custom support to potential providers of repository metadata. Is this the case for your preferred aggregator(s)?
 
-1. Yes, the aggregator has a way of providing custom support to your repository's existing infrastructure.  <<button [[Excellent! Let's continue|Measuring success]]>><</button>> 
-2. No, the aggregator has no support desk, or the service does not offer custom support for your specific infrastructure.  <<button [[Explore your options|Software upgrades]]>><</button>>
+1. Yes, the aggregator has a way of providing custom support to your repository's existing infrastructure.  `<<button [[Excellent! Let's continue|Measuring success]]>><</button>>` 
+2. No, the aggregator has no support desk, or the service does not offer custom support for your specific infrastructure.  `<<button [[Explore your options|Software upgrades]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Software upgrades
 
 ## Repository upgrades and other options
 If your preferred aggregator(s) cannot support your existing infrastructure, you still have a few options:
-<<checkbox "$viringo">>Install [Viringo](https://github.com/datacite/viringo) on your custom repository, 'an OAI-PMH compatible provider for exposing PID related metadata', that is currently being used by DataCite and FRDR.
-<<checkbox "$pycsw">>Install [pycsw](https://pycsw.org/), an open-source implementation of [OGC-CSW](http://www.opengis.net/doc/IS/cat/3.0) in Python. 
-<<checkbox "$customAPI">>Work with your repository's IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.
-<<checkbox "$migrate">>Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.
-<<button [[Save option(s) & continue|Measuring success]]>><</button>>
+`<<checkbox "$viringo">>`Install [Viringo](https://github.com/datacite/viringo) on your custom repository, 'an OAI-PMH compatible provider for exposing PID related metadata', that is currently being used by DataCite and FRDR.
+`<<checkbox "$pycsw">>`Install [pycsw](https://pycsw.org/), an open-source implementation of [OGC-CSW](http://www.opengis.net/doc/IS/cat/3.0) in Python. 
+`<<checkbox "$customAPI">>`Work with your repository's IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.
+`<<checkbox "$migrate">>`Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.
+`<<button [[Save option(s) & continue|Measuring success]]>><</button>>`
 
-If none of this seems to be a possibility for now, <<button [[please let us walk you to the exit|Pre-final]]>><</button>>
+If none of this seems to be a possibility for now, `<<button [[please let us walk you to the exit|Pre-final]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Measuring success
 
 ## Measuring success
-<<if $servicetype is "semantic">>You have decided to enhance your existing metadata records in the repository with semantic metadata, using schema.org.
-<<elseif $servicetype is "both">>You have decided to enhance your existing metadata records in the repository with semantic metadata, using schema.org.
+`<<if $servicetype is "semantic">>`You have decided to enhance your existing metadata records in the repository with semantic metadata, using schema.org.
+`<<elseif $servicetype is "both">>`You have decided to enhance your existing metadata records in the repository with semantic metadata, using schema.org.
 You have also decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
 - Described our repository’s current infrastructure
 - Narrowed down your aggregation options to a set of preferred metadata aggregators
 - Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
-<<elseif $servicetype is "traditional">>
+`<<elseif $servicetype is "traditional">>`
 You have decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
 - Described our repository’s current infrastructure
 - Narrowed down your aggregation options to a set of preferred metadata aggregators
 - Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
-<<else>>
-<</if>>
+`<<else>>`
+`<</if>>`
 
 This section addresses two essential components of your implementation plan: A consumption benchmark and a method to establish whether your repository has reached that benchmark.
 
 To begin, you need to know how to measure your repository’s “success”. The [COUNTER Code of Practice](https://www.projectcounter.org/wp-content/uploads/2017/07/Friendly_Guide_Providers_20170706-1.pdf) gives a framework to measure repositories’ impact in the research data community. It has become the standard framework for repository metrics.
 
 How does your repository currently track your datasets’ impact and reach? (select all that apply)
-<<checkbox "$views">>Landing page views. 
-<<checkbox "$downloads">>Dataset downloads.
-<<checkbox "$citations">>Reuse in research: scholarly citations (e.g. with DOI and other PIDs).
-<<checkbox "$mentions">>References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.
-<<checkbox "$aggreuse">>Reuse by aggregation into other data products or services.
-<<checkbox "$educational">>Educational use: Appearance in course syllabi, workshops, etc.
-<<checkbox "$ot">>Others, please elaborate:
-<<textarea "$othermetrics" "">><small>*[optional]*</small>
+`<<checkbox "$views">>`Landing page views. 
+`<<checkbox "$downloads">>`Dataset downloads.
+`<<checkbox "$citations">>`Reuse in research: scholarly citations (e.g. with DOI and other PIDs).
+`<<checkbox "$mentions">>`References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.
+`<<checkbox "$aggreuse">>`Reuse by aggregation into other data products or services.
+`<<checkbox "$educational">>`Educational use: Appearance in course syllabi, workshops, etc.
+`<<checkbox "$ot">>`Others, please elaborate:
+`<<textarea "$othermetrics" "">>`*[optional]*
 
 **Benchmarks and methods**
 Could you give a brief description of the framework you plan to use to assess and evaluate a harvestable metadata service implementation at your repository?
-<<textarea "$evalframework" "">><small>*[optional]*</small>
-<<button [[Submit & continue|This and that]]>><</button>>
+`<<textarea "$evalframework" "">>`*[optional]*
+`<<button [[Submit & continue|This and that]]>><</button>>`
 
 
 ----------------------------------------
@@ -424,12 +424,12 @@ Could you give a brief description of the framework you plan to use to assess an
 ## Your Implementation Plan is almost completed. 
 
 You have the following options:
-1. You can end this walkthrough now by clicking on this button:  <<button[[Skip to the next step|Pre-final]]>><</button>>, or 
+1. You can end this walkthrough now by clicking on this button:  `<<button[[Skip to the next step|Pre-final]]>><</button>>`, or 
 2. Or you can use the section below to add more content to your implementation plan before printing it out. 
 
 ### 1. Project Summary
 **1. Please write a summary of your project (50-150 words)**
-<<textarea "$summary" "">><small>*[optional]*</small>
+`<<textarea "$summary" "">>`*[optional]*
 **2. Additional repository developments/activities**
 Are there any other repository developments or activities that you want to consider in your workflow? Some examples might be:
 - Converting metadata to an alternate format
@@ -439,24 +439,24 @@ Are there any other repository developments or activities that you want to consi
 - Conducting quality assurance
 - Adding provenance metadata
 
-<<textarea "$workflows" "">><small>*[optional]*</small>
+`<<textarea "$workflows" "">>`*[optional]*
 **3. Resources needed (e.g. human effort, infrastructure upgrades, etc.)**
 *Don’t underestimate the human effort required for a harvestable metadata project!*
-<<textarea "$resources" "">><small>*[optional]*</small>
+`<<textarea "$resources" "">>`*[optional]*
 **4. Other support**
 To what extent does your repository's host organization provide material and other support?
-<<textarea "$support" "">><small>*[optional]*</small>
+`<<textarea "$support" "">>`*[optional]*
 **5. Partners**
 Are other organizations involved in this project? Do you have inter-institutional support from partners, groups, government or federations? Are there other projects related to this one? If so, please describe the nature of your collaborations/external support:
-<<textarea "$partners" "">><small>*[optional]*</small>
+`<<textarea "$partners" "">>`*[optional]*
 **6. Difficulties/Challenges**
 Can you think of any other difficulties or challenges in data sharing? For example, 
 - Are you sharing open data or will a data sharing agreement or privacy controls be required?
 - Do you have an existing research data  management plan or contract that you need to satisfy or a governance structure that needs to approve of your repository development plan?
 
 Please describe the causes of these difficulties, and any possible measures to overcome them.
-<<textarea "$challenges" "">><small>*[optional]*</small>
-<<button [[Submit & continue|Pre-final]]>><</button>>
+`<<textarea "$challenges" "">>`*[optional]*
+`<<button [[Submit & continue|Pre-final]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Pre-final
@@ -465,136 +465,136 @@ Please describe the causes of these difficulties, and any possible measures to o
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated.
 
 ### Please choose an option:
-1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+2. `<<button [[End the walk-through without saving.|Game over]]>><</button>>` 
 
-<<elseif $congrats is "t" and $servicetype is "both">>
+`<<elseif $congrats is "t" and $servicetype is "both">>`
 
 ## Congratulations! 
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated. You are ready to start tackling semantic metadata aggregation for your repository as well! 
 
 ### Please choose an option:
-1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+2. `<<button [[End the walk-through without saving.|Game over]]>><</button>>` 
 
-<<elseif $servicetype is "semantic">>
+`<<elseif $servicetype is "semantic">>`
 
 ## Congratulations! 
 You have reached the end of the implementation plan walk-through and you are ready to start tackling semantic metadata aggregation for your repository. 
 
 ### Please choose an option:
-1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+2. `<<button [[End the walk-through without saving.|Game over]]>><</button>>` 
 
-<<elseif $authority is "ask">>
+`<<elseif $authority is "ask">>`
 
 ## Don't give up!
 You may need to shelve this project until it's institutionally possible.
 
 ### Until then, please choose an option:
-1. <<button [[Try again (restart the walk-through)|Hello]]>><</button>>
-2. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-3. <<button [[End the walk-through without saving|Game over]]>><</button>> 
+1. `<<button [[Try again (restart the walk-through)|Hello]]>><</button>>`
+2. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+3. `<<button [[End the walk-through without saving|Game over]]>><</button>>` 
 
-<<elseif $metadatafail is "true">>
+`<<elseif $metadatafail is "true">>`
 
 ## Don't give up!
 You may need to shelve this project until your catalogue and metadata are up to the standard you need.
 
 ### Until then, please choose an option:
-1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+2. `<<button [[End the walk-through without saving.|Game over]]>><</button>>` 
 
-<<elseif $servicetype is "none" or $aggrservice is "postpone" or $aggrprotocol is "notmatch">>
+`<<elseif $servicetype is "none" or $aggrservice is "postpone" or $aggrprotocol is "notmatch">>`
 
 ## Don't give up!
 You can come back later to make a plan that maximizes your datasets’ impact and reach by making the best of your current metadata services.
 
 ### Until then, please choose an option:
-1. <<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>
-2. <<button [[End the walk-through without saving.|Game over]]>><</button>> 
+1. `<<button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]>><</button>>`
+2. `<<button [[End the walk-through without saving.|Game over]]>><</button>>` 
 
-<<else>>
-<</if>>
+`<<else>>`
+`<</if>>`
 
 ----------------------------------------
 # Passage Name: Implementation Plan
 
 ## Harvestable Metadata Services: Implementation Plan
 
-<<button "Print your plan">><</button>>  <<button [[End the walk-through|Game over]]>><</button>>
+`<<button "Print your plan">><</button>>  <<button [[End the walk-through|Game over]]>><</button>>`
 
 ### 1. Repository Information
-**a) Name of repository:** <<print $repository>>
-**b) Hosted by <small>(name of organization)</small>:** <<print $orgname>> 
+**a) Name of repository:** `<<print $repository>>`
+**b) Hosted by (name of organization):** `<<print $orgname>>` 
 
 ### 2. Project Summary
-<<print $summary>>
+`<<print $summary>>`
 
-### 3. Current state of <<if $repository is "">>your repository<<else>><<print $repository>><</if>>
+### 3. Current state of `<<if $repository is "">>your repository<<else>><<print $repository>><</if>>`
 
 ### a) Current metadata formats and standards:
-<<print $mdstandards>>
+`<<print $mdstandards>>`
 
 ### b) Current metadata transfer protocols used: 
-<<print $protocol>>
+`<<print $protocol>>`
 
 ### 4. Project Overview
 
 ### a) Objectives
-<<if $servicetype is "semantic">>The repository's main interest is to improve the discoverability of data assets by enhancing the existing metadata. This will facilitate indexing by web crawling services such as Google. For that purpose, we will start a different project, distinct from HMetS, where semantic markup, in the form of schema.org tags, will be added to metadata records' landing pages.
-<<elseif $servicetype is "none" or $aggrservice is "postpone">>The aim of this project is to provide harvestable metadata to align with FAIR principles and TRUST principles. Providing the harvestable metadata services to traditional metadata aggregators and/or web crawlers is out of the scope of this project.
-<<elseif $servicetype is "traditional">>The aim of this project is to improve the discoverability of data assets in the repository with a traditional metadata aggregation strategy. A harvestable metadata service will be created, which can then be exposed to metadata harvesters and registries.
-<<elseif $servicetype is "both">>The general aim is to improve the discoverability of data assets in the repository, using a dual approach: A traditional metadata aggregation strategy, and a semantic one. 
+`<<if $servicetype is "semantic">>`The repository's main interest is to improve the discoverability of data assets by enhancing the existing metadata. This will facilitate indexing by web crawling services such as Google. For that purpose, we will start a different project, distinct from HMetS, where semantic markup, in the form of schema.org tags, will be added to metadata records' landing pages.
+`<<elseif $servicetype is "none" or $aggrservice is "postpone">>`The aim of this project is to provide harvestable metadata to align with FAIR principles and TRUST principles. Providing the harvestable metadata services to traditional metadata aggregators and/or web crawlers is out of the scope of this project.
+`<<elseif $servicetype is "traditional">>`The aim of this project is to improve the discoverability of data assets in the repository with a traditional metadata aggregation strategy. A harvestable metadata service will be created, which can then be exposed to metadata harvesters and registries.
+`<<elseif $servicetype is "both">>`The general aim is to improve the discoverability of data assets in the repository, using a dual approach: A traditional metadata aggregation strategy, and a semantic one. 
 The project will create a harvestable metadata services, through which metadata will be exposed to metadata harvesters and registries. Then, in a separate project, metadata landing pages will be enhanced with schema.org tags, to facilitate indexing by webcrawling services such as Google.
-<<else>><</if>>
+`<<else>><</if>>`
 
 ### b) Anticipated Goals
 *Which goals are you striving for with this implementation of harvestable metadata services?*
-<<print $goals>>
+`<<print $goals>>`
 
 ### c) Expected outcomes
 *What outcomes would you expect to see? If possible, indicate a time frame in which you'd expect these changes to occur?*
-<<print $outcomes>>
+`<<print $outcomes>>`
 
 ### d) Project Beneficiaries
 *The project will serve these stakeholders:*
-<<print $stakeholders>>
+`<<print $stakeholders>>`
 
 ### 5. Project Details
 
 ### a) Aggregators/Harvesting Services targeted
-<<if $servicetype is "none">>None
-<<elseif $servicetype is "semantic">>Semantic aggregation (e.g.) Google Dataset Search
-<<elseif $servicetype is "undefined">>
-<<elseif $servicetype is "both">>Semantic aggregation (e.g. Google Dataset Search) in a separate implementation plan, and these metadata aggregator(s): <<print $aggrlist>>
-<<else>>These metadata aggregator(s): <<print $aggrlist>><</if>>
+`<<if $servicetype is "none">>`None
+`<<elseif $servicetype is "semantic">>`Semantic aggregation (e.g.) Google Dataset Search
+`<<elseif $servicetype is "undefined">>`
+`<<elseif $servicetype is "both">>Semantic aggregation (e.g. Google Dataset Search) in a separate implementation plan, and these metadata aggregator(s): <<print $aggrlist>>`
+`<<else>>These metadata aggregator(s): <<print $aggrlist>><</if>>`
 
 ### b) Metadata Formats/Standards
-<<if $metadatafail is "true">>The repository's metadata catalogue is not yet up to current standards for metadata sharing. 
-<<else>>The existing metadata catalogue is currently using these standard(s): <<print $mdstandards>>
-	<<if $newstandards isnot "">>It will be converted to these new standard(s): <<print $newstandards>><<else>><</if>> 
-<</if>>
+`<<if $metadatafail is "true">>`The repository's metadata catalogue is not yet up to current standards for metadata sharing. 
+`<<else>>The existing metadata catalogue is currently using these standard(s): <<print $mdstandards>>`
+	`<<if $newstandards isnot "">>It will be converted to these new standard(s): <<print $newstandards>><<else>><</if>>` 
+`<</if>>`
 
 ### c) Metadata Transfer Protocols (e.g. APIs/ harvesting protocols)
-<<if $aggrprotocol is "match" and $aggrsupport is "notrequired">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>
-The targeted metadata aggregator(s) support: <<print $newprotocols>>:
-The existing metadata transfer protocol is supported by the targeted aggregator(s). <<if $interopmd isnot "">>Explanation: <<print $interopmd>><<else>><</if>>
-<<elseif $aggrprotocol is "notmatch" and $aggrsupport is "supported">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>
-The targeted metadata aggregator(s) support: <<print $newprotocols>> 
+`<<if $aggrprotocol is "match" and $aggrsupport is "notrequired">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>`
+The targeted metadata aggregator(s) support: `<<print $newprotocols>>`:
+The existing metadata transfer protocol is supported by the targeted aggregator(s). `<<if $interopmd isnot "">>Explanation: <<print $interopmd>><<else>><</if>>`
+`<<elseif $aggrprotocol is "notmatch" and $aggrsupport is "supported">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>`
+The targeted metadata aggregator(s) support: `<<print $newprotocols>>` 
 The targeted metadata aggregator(s) can provide custom support for the new metadata transfer protocols.
-<<elseif $aggrprotocol is "notmatch" and $aggrsupport is "notsupported">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>
-The targeted metadata aggregator(s) support these protocols: <<print $newprotocols>>
+`<<elseif $aggrprotocol is "notmatch" and $aggrsupport is "notsupported">>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>`
+The targeted metadata aggregator(s) support these protocols: `<<print $newprotocols>>`
 The targeted metadata aggregator(s) cannot provide custom support for the new metadata transfer protocols. Providing HMetS to the metadata aggregators project is postponed.
-<<else>>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>
-The targeted metadata aggregator(s) support these protocols: <<print $newprotocols>>:<</if>>
+`<<else>>The existing metadata catalogue is currently using these metadata transfer protocol(s): <<print $protocol>>`
+The targeted metadata aggregator(s) support these protocols: `<<print $newprotocols>>:<</if>>`
 
 
 ### d) New repository components to be developed/built/upgraded
-<<if $viringo is true>>*Install Viringo on your custom repository, 'an OAI-PMH compatible provider for exposing PID related metadata', that is currently being used by DataCite and FRDR.<<else>><</if>>
-<<if $pycsw is true>>*Create a catalogue service on your custom repository using pycsw, a Python implementation of the OGC CSW standard.<<else>><</if>>
-<<if $customAPI is true>>*Work with your repository's IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.<<else>><</if>>
-<<if $migrate is true>>*Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.<<elseif $aggrsupport is "supported">>Since the targeted metadata aggregators can provide custom support under the existing infrastructure, new repository components are not required to develop/build/upgrade.<</if>>
+`<<if $viringo is true>>*Install Viringo on your custom repository, 'an OAI-PMH compatible provider for exposing PID related metadata', that is currently being used by DataCite and FRDR.<<else>><</if>>`
+`<<if $pycsw is true>>*Create a catalogue service on your custom repository using pycsw, a Python implementation of the OGC CSW standard.<<else>><</if>>`
+`<<if $customAPI is true>>*Work with your repository's IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.<<else>><</if>>`
+`<<if $migrate is true>>*Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.<<elseif $aggrsupport is "supported">>Since the targeted metadata aggregators can provide custom support under the existing infrastructure, new repository components are not required to develop/build/upgrade.<</if>>`
 
 ### e) Additional repository developments/activities considered
 *Do you have any other repository developments or activities that you want to consider in your workflow? 
@@ -605,21 +605,21 @@ Some examples could be:
 - Generating PIDs or DOIs for metadata
 - Conducting quality assurance
 - Adding provenance metadata*
-<<print $workflows>>
+`<<print $workflows>>`
 
 ### 6. Project Resources and Challenges
 
 ### a) Resources needed:
 *For example, human effort, infrastructure upgrades, etc. (Don’t underestimate the human effort required for a harvestable metadata project!)*
-<<print $resources>>
+`<<print $resources>>`
 
 ### b) Support from host organization
 To what extent does your repository's host organization provide material and other support?
-<<print $support>>
+`<<print $support>>`
 
 ### c) Partners
 *Are other organizations involved in this project? Do you have inter-institutional from partners,  groups, government or federations? Are there other projects related to this one? If so, please describe the nature of your collaborations/external support:*
-<<print $partners>>
+`<<print $partners>>`
 
 ### d) Difficulties/Challenges
 *Can you think of any other expected difficulties or challenges in data sharing? Some examples could be:
@@ -629,29 +629,29 @@ To what extent does your repository's host organization provide material and oth
 ## Do you have an existing research data  management plan or contract that you need to satisfy or a governance structure that needs to approve of your repository development plan?
 
 ## What are the causes of these difficulties, and/or possible measures to overcome them.*
-<<print $challenges>>
+`<<print $challenges>>`
 
 ### 7. Evaluation framework
 
 ### a) Metrics
 
-## Landing page views: <<if $views is true>>Yes<<elseif $view is false>>No<<else>>Yes / No<</if>>
+## Landing page views: `<<if $views is true>>Yes<<elseif $view is false>>No<<else>>Yes / No<</if>>`
 
-## Dataset downloads: <<if $downloads is true>>Yes<<elseif $downloads is false>>No<<else>>Yes / No<</if>>
+## Dataset downloads: `<<if $downloads is true>>Yes<<elseif $downloads is false>>No<<else>>Yes / No<</if>>`
 
-## Reuse in research: scholarly citations (e.g. with DOI and other PIDs). <<if $citations is true>>Yes<<elseif $citations is false>>No<<else>>Yes / No<</if>>
+## Reuse in research: scholarly citations (e.g. with DOI and other PIDs). `<<if $citations is true>>Yes<<elseif $citations is false>>No<<else>>Yes / No<</if>>`
 
-## References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.: <<if $mentions is true>>Yes<<elseif $mentions is false>>No<<else>>Yes / No<</if>>
+## References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.: `<<if $mentions is true>>Yes<<elseif $mentions is false>>No<<else>>Yes / No<</if>>`
 
-## Reuse by aggregation into other data products or services: <<if $aggreuse is true>>Yes<<elseif $aggreuse is false>>No<<else>>Yes / No<</if>>
+## Reuse by aggregation into other data products or services: `<<if $aggreuse is true>>Yes<<elseif $aggreuse is false>>No<<else>>Yes / No<</if>>`
 
-## Educational use: Appearance in course syllabi, workshops, etc.: <<if $educational is true>>Yes<<elseif $educational is false>>No<<else>>Yes / No<</if>>
+## Educational use: Appearance in course syllabi, workshops, etc.: `<<if $educational is true>>Yes<<elseif $educational is false>>No<<else>>Yes / No<</if>>`
 
-## Others: <<if $ot is true>><<print $othermetrics>><<elseif $ot is false>>No<<else>>*Please specify:*<</if>>
+## Others: `<<if $ot is true>><<print $othermetrics>><<elseif $ot is false>>No<<else>>*Please specify:*<</if>>`
 
 ### b) Benchmarks and methods
 *Could you give a brief description of the framework you plan to use to assess and evaluate an HMetS implementation at your repository?*
-<<print $evalframework>>
+`<<print $evalframework>>`
 
 ### 8. Other Implementation Plan Templates
 Some examples of (broad-scope) data services development plans using CESSDA SaW (EU) and JISC (UK) guidance documents, tools, and templates have been collected in this document. A general outline of a detailed project plan for HMetS implementation is proposed below.
@@ -671,7 +671,7 @@ d.	Conclusion
   i	Concluding remarks
   ii.	Next steps
 
-<<button [[End|Game over]]>><</button>>
+`<<button [[End|Game over]]>><</button>>`
 
 ----------------------------------------
 # Passage Name: Game over
@@ -679,12 +679,12 @@ End of story
 
 Thank you for playing!
 
-<<button [[RESTART|Hello]]>><</button>> to play again.
+`<<button [[RESTART|Hello]]>><</button>>` to play again.
 
 The International Technology Library (InTeLibrary) collects and shares RDM information resources, most of which are freely available on the web. It is curated and maintained by the International Technology Office (ITO). 
 Visit [InTeLibrary’s Harvestable Metadata Services collection](https://www.zotero.org/groups/2597955/intelibrary_-_harvestable_metadata_services) for more than 300 resources about harvestable metadata services planning, development, and implementation. Areas covered include metadata standards, exchange protocols, metadata aggregation services, certification, assessment frameworks and metrics, as well as data sharing principles, best practices and recommendations.
 
-<<button "Print the resources list">><</button>>
+`<<button "Print the resources list">><</button>>`
 
 ## Resources
 
