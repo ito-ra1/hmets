@@ -78,11 +78,11 @@ The [FAIR](https://doi.org/10.15497/RDA00050) framework lists harvestable metada
 Findability relates to a catalogue's interoperability, whether a repository maintains a searchable metadata catalogue to appropriate standards, including persistent identifier systems. It also covers the ways in which metadata is made available, either by means of search interfaces on the repository site, via APIs, or through harvesting services. Additional criteria include repository presence in more than one resource registry (generic and disciplinary), and whether data citation recommendations are provided on the site.
 
 Before approaching the instance that will make a decision about your request to create a new metadata service, have a look at some resources to help you make your argument:
--Chiarelli, A. & Johnson, R. (2017) [Making the case for research data management - Case studies.](https://doi.org/10.5281/zenodo.817936)
--Dierkes, J. & Wuttke, U. (2016) [The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management.](https://doi.org/10.3390/ijgi5080133) *ISPRS International Journal of Geo-Information*, *5*(8), 1-11.
--Garnett A., Leahey, A., Savard, D., Towell, B., & Wilson, L. (2017) [Open metadata for research data discovery in Canada.](https://doi.org/10.1080/19386389.2018.1443698) *Journal of Library Metadata*, *17*(3–4), 201-217.
--International Science Council (2019) [Advancing science as a global public good: Action plan 2019-2021.](https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf)
--Whyte, A. & Tedds, J. (2011) [Making the case for research data management.](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm)
+- Chiarelli, A. & Johnson, R. (2017) [Making the case for research data management - Case studies.](https://doi.org/10.5281/zenodo.817936)
+- Dierkes, J. & Wuttke, U. (2016) [The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management.](https://doi.org/10.3390/ijgi5080133) *ISPRS International Journal of Geo-Information*, *5*(8), 1-11.
+- Garnett A., Leahey, A., Savard, D., Towell, B., & Wilson, L. (2017) [Open metadata for research data discovery in Canada.](https://doi.org/10.1080/19386389.2018.1443698) *Journal of Library Metadata*, *17*(3–4), 201-217.
+- International Science Council (2019) [Advancing science as a global public good: Action plan 2019-2021.](https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf)
+- Whyte, A. & Tedds, J. (2011) [Making the case for research data management.](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm)
 
 ### You asked the authority, and:
 <<button [[permission was obtained|Expected outcomes]]>><</button>>
@@ -112,10 +112,10 @@ Or if you'd rather not provide that information yet:  <<button[[Skip to the next
 ## Your repository catalogue
 **Current state of your repository**
 The global RDM community has produced a few resources to assess the maturity of a data repository. They are practical, up-to-date frameworks to help you review your repository’s current state:
--CoreTrustSeal Standards and Certification Board (2019). [CoreTrustSeal trustworthy data repositories requirements 2020–2022](http://doi.org/10.5281/zenodo.3638211).
--RDA FAIR Data Maturity Model Working Group (2020). [FAIR data maturity model: specification and guidelines](https://doi.org/10.15497/RDA00050)
--Lin, D., Crabtree, J., Dillo, I. et al. (2020). [The TRUST Principles for digital repositories](https://doi.org/10.1038/s41597-020-0486-7). *Scientific Data*, 7, 144(2020).
--Rans, J., & Whyte, A. (2017). [Using RISE: The research infrastructure self-evaluation framework](https://www.dcc.ac.uk/sites/default/files/documents/publications/UsingRISE_v1_1.pdf). Digital Curation Centre.
+- CoreTrustSeal Standards and Certification Board (2019). [CoreTrustSeal trustworthy data repositories requirements 2020–2022](http://doi.org/10.5281/zenodo.3638211).
+- RDA FAIR Data Maturity Model Working Group (2020). [FAIR data maturity model: specification and guidelines](https://doi.org/10.15497/RDA00050)
+- Lin, D., Crabtree, J., Dillo, I. et al. (2020). [The TRUST Principles for digital repositories](https://doi.org/10.1038/s41597-020-0486-7). *Scientific Data*, 7, 144(2020).
+- Rans, J., & Whyte, A. (2017). [Using RISE: The research infrastructure self-evaluation framework](https://www.dcc.ac.uk/sites/default/files/documents/publications/UsingRISE_v1_1.pdf). Digital Curation Centre.
 
 The first thing you will need is a catalogue of well-formed metadata. 
 
@@ -135,11 +135,11 @@ The first thing you will need is a catalogue of well-formed metadata.
 Different aggregators can support different metadata standards and transfer protocols. Some common metadata standards include [DataCite](https://schema.datacite.org/), the [Dublin Core Metadata Initiative (DCMI)](https://www.dublincore.org/schemas/), the [Data Documentation Initiative (DDI)](https://ddialliance.org/), and [ISO 19115-1:2014](https://www.iso.org/standard/53798.html), which is part of the [ISO 1900 series](https://schemas.isotc211.org/) of geographic information standards.
 
 Here are some resources to get you started:
--Riley, J. (2017). [Understanding metadata: What is metadata, and what is it for?](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Met%E2%80%A6) National	Information	Standards	Organization. 
--ANDS (2016). <a href="https://www.ands.org.au/guides/metadata-working">Guide to Metadata (Working Level)</a>. 
--Digital Curation Centre (n.d.). <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Disciplinary metadata.</a>
--Research Data Alliance Metadata Standards Directory Working Group (n.d.). [Metadata](http://rd-alliance.github.io/metadata-directory/).
--Riley, J. (2018). [Seeing standards: A visualization of the metadata universe](https://doi.org/10.5683/SP2/UOHPVH).
+- Riley, J. (2017). [Understanding metadata: What is metadata, and what is it for?](https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Met%E2%80%A6) National	Information	Standards	Organization. 
+- ANDS (2016). <a href="https://www.ands.org.au/guides/metadata-working">Guide to Metadata (Working Level)</a>. 
+- Digital Curation Centre (n.d.). <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Disciplinary metadata.</a>
+- Research Data Alliance Metadata Standards Directory Working Group (n.d.). [Metadata](http://rd-alliance.github.io/metadata-directory/).
+- Riley, J. (2018). [Seeing standards: A visualization of the metadata universe](https://doi.org/10.5683/SP2/UOHPVH).
 
 Depending on the size of your repository and the state of metadata in your repository catalogue, it could take a lot of effort and resources to get your metadata in the repository catalogue up to current standards for aggregation.
 
@@ -264,14 +264,14 @@ Semantic markup (i.e. Schema.org) is built into a metadata standard. As previous
 Importantly for those who manage sensitive or restricted data that are subject to privacy concerns, once a dataset is discovered in GDSS, the user is directed back to the repository to obtain the data. The access restrictions and protocols for data sharing remain as agreed upon during the submission process, and they are determined and maintained at the repository.
 
 Here are some resources for you to understand more about SDO and how to implement SDO into your repository:
--Benjelloun, O, Chen, S., & Noy, N. (2020). [Google Dataset Search by the numbers](https://arxiv.org/abs/2006.06894).
--FAIRsFAIR (2020). [FAIR Semantics](https://github.com/FAIRsFAIR/FAIRSemantics)
--Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., & Clark, T. (2018). [Listing of data repositories that embed schema.org metadata in dataset landing pages](https://doi.org/10.5281/zenodo.1202174).
--Ogbuji, U. (2017). [Introduction to the Schema.org information model: Make your data more useful in automated applications](https://developer.ibm.com/articles/wa-schemaorg1/).
--Schema.org (2018). [Community examples](https://github.com/schemaorg/schemaorg/wiki/Community-Examples).
--Schema.org (2018). [External resources](https://github.com/schemaorg/schemaorg/wiki/External-Resources).
--W3C Community and Business Groups (n.d.). [Schema.org Community Group](https://www.w3.org/community/schemaorg/). 
--World Data System-International Technology Office (2021). [Crosswalks from schemas to schema.org](https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing). 
+- Benjelloun, O, Chen, S., & Noy, N. (2020). [Google Dataset Search by the numbers](https://arxiv.org/abs/2006.06894).
+- FAIRsFAIR (2020). [FAIR Semantics](https://github.com/FAIRsFAIR/FAIRSemantics)
+- Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., & Clark, T. (2018). [Listing of data repositories that embed schema.org metadata in dataset landing pages](https://doi.org/10.5281/zenodo.1202174).
+- Ogbuji, U. (2017). [Introduction to the Schema.org information model: Make your data more useful in automated applications](https://developer.ibm.com/articles/wa-schemaorg1/).
+- Schema.org (2018). [Community examples](https://github.com/schemaorg/schemaorg/wiki/Community-Examples).
+- Schema.org (2018). [External resources](https://github.com/schemaorg/schemaorg/wiki/External-Resources).
+- W3C Community and Business Groups (n.d.). [Schema.org Community Group](https://www.w3.org/community/schemaorg/). 
+- World Data System-International Technology Office (2021). [Crosswalks from schemas to schema.org](https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing). 
 
 Once you've found out more about schema.org, you'll be in a position to start its implementation.
 
@@ -323,14 +323,14 @@ Semantic markup (i.e. Schema.org) is built into a metadata standard. As previous
 Importantly for those who manage sensitive or restricted data that are subject to privacy concerns, once a dataset is discovered in GDSS, the user is directed back to the repository to obtain the data. The access restrictions and protocols for data sharing remain as agreed upon during the submission process, and they are determined and maintained at the repository.
 
 Here are some resources for you to understand more about SDO and how to implement SDO into your repository:
--Benjelloun, O, Chen, S., & Noy, N. (2020). [Google Dataset Search by the numbers](https://arxiv.org/abs/2006.06894).
--FAIRsFAIR (2020). [FAIR Semantics](https://github.com/FAIRsFAIR/FAIRSemantics)
--Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., & Clark, T. (2018). [Listing of data repositories that embed schema.org metadata in dataset landing pages](https://doi.org/10.5281/zenodo.1202174).
--Ogbuji, U. (2017). [Introduction to the Schema.org information model: Make your data more useful in automated applications](https://developer.ibm.com/articles/wa-schemaorg1/).
--Schema.org (2018). [Community examples](https://github.com/schemaorg/schemaorg/wiki/Community-Examples).
--Schema.org (2018). [External resources](https://github.com/schemaorg/schemaorg/wiki/External-Resources).
--W3C Community and Business Groups (n.d.). [Schema.org Community Group](https://www.w3.org/community/schemaorg/). 
--World Data System-International Technology Office (2021). [Crosswalks from schemas to schema.org](https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing). 
+- Benjelloun, O, Chen, S., & Noy, N. (2020). [Google Dataset Search by the numbers](https://arxiv.org/abs/2006.06894).
+- FAIRsFAIR (2020). [FAIR Semantics](https://github.com/FAIRsFAIR/FAIRSemantics)
+- Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., & Clark, T. (2018). [Listing of data repositories that embed schema.org metadata in dataset landing pages](https://doi.org/10.5281/zenodo.1202174).
+- Ogbuji, U. (2017). [Introduction to the Schema.org information model: Make your data more useful in automated applications](https://developer.ibm.com/articles/wa-schemaorg1/).
+- Schema.org (2018). [Community examples](https://github.com/schemaorg/schemaorg/wiki/Community-Examples).
+- Schema.org (2018). [External resources](https://github.com/schemaorg/schemaorg/wiki/External-Resources).
+- W3C Community and Business Groups (n.d.). [Schema.org Community Group](https://www.w3.org/community/schemaorg/). 
+- World Data System-International Technology Office (2021). [Crosswalks from schemas to schema.org](https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing). 
 
 Once you've found out more about schema.org, you'll be in a position to start its implementation.
 
@@ -385,16 +385,16 @@ If none of this seems to be a possibility for now, <<button [[please let us walk
 You have also decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
--Described our repository’s current infrastructure
--Narrowed down your aggregation options to a set of preferred metadata aggregators
--Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
+- Described our repository’s current infrastructure
+- Narrowed down your aggregation options to a set of preferred metadata aggregators
+- Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
 <<elseif $servicetype is "traditional">>
 You have decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
--Described our repository’s current infrastructure
--Narrowed down your aggregation options to a set of preferred metadata aggregators
--Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
+- Described our repository’s current infrastructure
+- Narrowed down your aggregation options to a set of preferred metadata aggregators
+- Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
 <<else>>
 <</if>>
 
@@ -689,48 +689,48 @@ Visit [InTeLibrary’s Harvestable Metadata Services collection](https://www.zot
 ## Resources
 
 ### Making the case for RDM and writing an implementation plan
--Chiarelli, A. & Johnson, R. (2017) [Making the case for research data management - Case studies](https://doi.org/10.5281/zenodo.817936).
--CoreTrustSeal (2019). [CoreTrustSeal trustworthy data repositories requirements 2020-2022](https://doi.org/10.5281/ZENODO.3638211)
--Dierkes, J. & Wuttke, U. (2016) [The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management](https://doi.org/10.3390/ijgi5080133). *ISPRS International Journal of Geo-Information*, *5*(8), 1-11.
--Garnett A., Leahey, A., Savard, D., Towell, B., & Wilson, L. (2017) [Open metadata for research data discovery in Canada](https://doi.org/10.1080/19386389.2018.1443698). *Journal of Library Metadata*, *17*(3–4), 201-217
--International Science Council (2019) [Advancing science as a global public good: Action plan 2019-2021](https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf).
--RDA FAIR Data Maturity Model Working Group (2020). [FAIR data maturity model: Specification and guidelines](https://doi.org/10.15497/RDA00050). Research Data Alliance
--Whyte, A. & Tedds, J. (2011) [Making the case for research data management](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm).
--Yarmey, L., & Baker, K. S. (2013). [Towards standardization: A participatory framework for scientific standard-making](https://doi.org/10.2218/ijdc.v8i1.252). *International Journal of Digital Curation*, *8*(1), 157–172.
+- Chiarelli, A. & Johnson, R. (2017) [Making the case for research data management - Case studies](https://doi.org/10.5281/zenodo.817936).
+- CoreTrustSeal (2019). [CoreTrustSeal trustworthy data repositories requirements 2020-2022](https://doi.org/10.5281/ZENODO.3638211)
+- Dierkes, J. & Wuttke, U. (2016) [The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management](https://doi.org/10.3390/ijgi5080133). *ISPRS International Journal of Geo-Information*, *5*(8), 1-11.
+- Garnett A., Leahey, A., Savard, D., Towell, B., & Wilson, L. (2017) [Open metadata for research data discovery in Canada](https://doi.org/10.1080/19386389.2018.1443698). *Journal of Library Metadata*, *17*(3–4), 201-217
+- International Science Council (2019) [Advancing science as a global public good: Action plan 2019-2021](https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf).
+- RDA FAIR Data Maturity Model Working Group (2020). [FAIR data maturity model: Specification and guidelines](https://doi.org/10.15497/RDA00050). Research Data Alliance
+- Whyte, A. & Tedds, J. (2011) [Making the case for research data management](https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm).
+- Yarmey, L., & Baker, K. S. (2013). [Towards standardization: A participatory framework for scientific standard-making](https://doi.org/10.2218/ijdc.v8i1.252). *International Journal of Digital Curation*, *8*(1), 157–172.
 
 ### Interoperability
--Crosas, Mercè. (2019). [Data federation: Standards, best practices, and thoughts](https://scholar.harvard.edu/mercecrosas/presentations/data-federation-standards-best-practices-and-thoughts). Presented at the Sixth Open Research Cloud Alliance Workshop, May 22, 2019. 
--Research Data Repository Interoperability Working Grouop (2017). [Research data repository interoperability primer](http://doi.org/10.15497/RDA00020).
--Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., ... Mons, B. (2016). [The FAIR guiding principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18). *Scientific Data*, *3*(1), 1–9.
--Verhey, C., Urquidi Díaz, A., & Payne, K. (2021). [14 metadata syndication things: Training guide](https://doi.org/10.5281/zenodo.4589084). WDS International Technology Office.
--Zhao, Z., & Hellström, M. (2020). *[Towards interoperable research infrastructures for Environmental and Earth Sciences : A reference model guided approach for common challenges](https://doi.org/10.1007/978-3-030-52829-4)*. Springer Nature.
+- Crosas, Mercè. (2019). [Data federation: Standards, best practices, and thoughts](https://scholar.harvard.edu/mercecrosas/presentations/data-federation-standards-best-practices-and-thoughts). Presented at the Sixth Open Research Cloud Alliance Workshop, May 22, 2019. 
+- Research Data Repository Interoperability Working Grouop (2017). [Research data repository interoperability primer](http://doi.org/10.15497/RDA00020).
+- Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., ... Mons, B. (2016). [The FAIR guiding principles for scientific data management and stewardship](https://doi.org/10.1038/sdata.2016.18). *Scientific Data*, *3*(1), 1–9.
+- Verhey, C., Urquidi Díaz, A., & Payne, K. (2021). [14 metadata syndication things: Training guide](https://doi.org/10.5281/zenodo.4589084). WDS International Technology Office.
+- Zhao, Z., & Hellström, M. (2020). *[Towards interoperable research infrastructures for Environmental and Earth Sciences : A reference model guided approach for common challenges](https://doi.org/10.1007/978-3-030-52829-4)*. Springer Nature.
 
 ### Metadata Standards
--Digital Curation Centre (n.d.). <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Disciplinary metadata.</a>
--Research Data Alliance Metadata Standards Directory Working Group (n.d.). [Metadata](http://rd-alliance.github.io/metadata-directory/).
--Tilmes, C. (2013). [Data formats: Choosing and adopting community accepted standards](https://commons.esipfed.org/node/1424).
--WDS-ITO SDO Interoperability Primer 
+- Digital Curation Centre (n.d.). <a href="https://www.dcc.ac.uk/guidance/standards/metadata">Disciplinary metadata.</a>
+- Research Data Alliance Metadata Standards Directory Working Group (n.d.). [Metadata](http://rd-alliance.github.io/metadata-directory/).
+- Tilmes, C. (2013). [Data formats: Choosing and adopting community accepted standards](https://commons.esipfed.org/node/1424).
+- WDS-ITO SDO Interoperability Primer 
 
 ### Machine interoperable interfaces
 
 ### ERDDAP
--National Oceanic and Atomspheric Administration (n.d.). [Set up your own ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html).
+- National Oceanic and Atomspheric Administration (n.d.). [Set up your own ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html).
 
 ### ResourceSync
--Knoth, P., Cancellieri, M., & Klein, M. (2019). [Comparing the Performance of OAI-PMH with ResourceSync](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync).
--Sompel, H. V. (2014). [Overview of ResourceSync](https://www.niso.org/standards-committees/resourcesync).
+- Knoth, P., Cancellieri, M., & Klein, M. (2019). [Comparing the Performance of OAI-PMH with ResourceSync](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync).
+- Sompel, H. V. (2014). [Overview of ResourceSync](https://www.niso.org/standards-committees/resourcesync).
 
 ### Open Archives Initiative-Protocol for Metadata Harvesting(OAI-PMH)
--Breeding, M. (2002). [Understanding the Protocol for Metadata Harvesting of the Open Archives Initiative](	https://librarytechnology.org/document/9944). *Computers in LIbraries*, *22*(8), 24-29.
--Carpenter, L. (2003). [Implementing OAI-PMH](https://web.archive.org/web/20180418113309/http://www.oaforum.org/tutorial/english/page4.htm).
--Haslhofer, B., & Schandl, B. (2010). [Interweaving OAI-PMH data sources with the linked data cloud](https://doi.org/10.1504/IJMSO.2010.032648). *International Journal of Metadata, Semantics and Ontologies (IJMSO)*, *5*(1), 17-31.
--Kata team repository (n.d.). [Open Archives Initiative-Protocol for Metadata Harvesting(OAI PMH) extension to CKAN](https://extensions.ckan.org/extension/oaipmh/)
--Knoth, P., Cancellieri, M., & Klein, M. (2019). [Comparing the Performance of OAI-PMH with ResourceSync](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync).
--Lagoze, C., Sompel, H.V., Nelson, M., & Warner, S. (2005). [Implementation guidelines for the Open Archives Initiative Protocol for Metadata Harvesting: Guidelines for repository implementers](http://www.openarchives.org/OAI/2.0/guidelines-repository.htm)
+- Breeding, M. (2002). [Understanding the Protocol for Metadata Harvesting of the Open Archives Initiative](	https://librarytechnology.org/document/9944). *Computers in LIbraries*, *22*(8), 24-29.
+- Carpenter, L. (2003). [Implementing OAI-PMH](https://web.archive.org/web/20180418113309/http://www.oaforum.org/tutorial/english/page4.htm).
+- Haslhofer, B., & Schandl, B. (2010). [Interweaving OAI-PMH data sources with the linked data cloud](https://doi.org/10.1504/IJMSO.2010.032648). *International Journal of Metadata, Semantics and Ontologies (IJMSO)*, *5*(1), 17-31.
+- Kata team repository (n.d.). [Open Archives Initiative-Protocol for Metadata Harvesting(OAI PMH) extension to CKAN](https://extensions.ckan.org/extension/oaipmh/)
+- Knoth, P., Cancellieri, M., & Klein, M. (2019). [Comparing the Performance of OAI-PMH with ResourceSync](https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync).
+- Lagoze, C., Sompel, H.V., Nelson, M., & Warner, S. (2005). [Implementation guidelines for the Open Archives Initiative Protocol for Metadata Harvesting: Guidelines for repository implementers](http://www.openarchives.org/OAI/2.0/guidelines-repository.htm)
 
 ### Open Geospatial Consortium-Catalogue Services for the Web (OGC-CSW) 
--Open Geospatial Consortium (n.d.). [Catalogue Services standard 2.0 extension package for ebRIM application profile: Earth Observation Products](https://www.ogc.org/standards/cat2eoext4ebrim).
--Open Geospatial Consortium (n.d.). [OGC API - Records - Overview](https://ogcapi.ogc.org/records/overview.html).
+- Open Geospatial Consortium (n.d.). [Catalogue Services standard 2.0 extension package for ebRIM application profile: Earth Observation Products](https://www.ogc.org/standards/cat2eoext4ebrim).
+- Open Geospatial Consortium (n.d.). [OGC API - Records - Overview](https://ogcapi.ogc.org/records/overview.html).
 
 ### International Organization for Standardization (ISO)
 International Organization for Standardization (2005). [ISO 19128:2005: Geographic information — Web map server interface](https://www.iso.org/standard/32546.html).
@@ -739,16 +739,16 @@ International Organization for Standardization (2005). [ISO 19128:2005: Geograph
 Sitemap.org (2016). [Sitemaps XML format](https://www.sitemaps.org/protocol.html).
 
 ### Metadata Aggregators
--Hudson-Vitale, C. (2017). [The current state of meta-repositories for data](https://openscholarship.wustl.edu/lib_papers/19/). In *University Libraries Publications* (pp. 251-261). Washington University in St. Louis.
--Schirrwagen, J. (2019). [Cross-disciplinary discovery in a global repository network: The case of BASE – Bielefeld Academic Search Engine](https://www.opensciencefair.eu/images/workshops/OSFair2019_74-BASE.pdf). Presented at the Open Science Fair Workshop on Data Discovery Across Disciplines, Porto, Portugal.
--World Data System-International Technology Office (2021). [Guide to metadata aggregators for repository managers](https://doi.org/10.5281/zenodo.4589055), and the [Searchable index of metadata aggregators](https://doi.org/10.5281/zenodo.4589050) 
+- Hudson-Vitale, C. (2017). [The current state of meta-repositories for data](https://openscholarship.wustl.edu/lib_papers/19/). In *University Libraries Publications* (pp. 251-261). Washington University in St. Louis.
+- Schirrwagen, J. (2019). [Cross-disciplinary discovery in a global repository network: The case of BASE – Bielefeld Academic Search Engine](https://www.opensciencefair.eu/images/workshops/OSFair2019_74-BASE.pdf). Presented at the Open Science Fair Workshop on Data Discovery Across Disciplines, Porto, Portugal.
+- World Data System-International Technology Office (2021). [Guide to metadata aggregators for repository managers](https://doi.org/10.5281/zenodo.4589055), and the [Searchable index of metadata aggregators](https://doi.org/10.5281/zenodo.4589050) 
 
 ### Measuring success
--Crosas, M. (2017). [Measuring the impact of digital repositories](https://scholar.harvard.edu/mercecrosas/presentations/measuring-impact-digital-repositories). Presentation at the meeting on Measuring the Impact of Digital repositories, NSF, Arlington, VA.
--Downs, R. R., Chen, R. S., & Schumacher, J. A. (2017). [Measuring the interdisciplinary impact of using geospatial data with remote sensing data](https://doi.org/10.7916/d8-57q4-h516). Paper PA11C-09 Presented at American Geophysical Union, Fall Meeting 2017. New Orleans, LA.
--Liu, C. (2018). [Data Impact Score (DIS) —A quantitative method of data performance to the data-driven sciences](https://doi.org/10.3974/geodp.2018.02.02). *Journal of Global Change Data & Discovery*, *2*(2), 135-143.
--Suleman, H. (2005). Analysis and evaluation of service oriented architectures for digital libraries. In C. Türker & H.-J. Schek (Eds.), *Peer-to-peer, grid, and service-orientation in digital library architectures* (pp. 130-146). Springer.
+- Crosas, M. (2017). [Measuring the impact of digital repositories](https://scholar.harvard.edu/mercecrosas/presentations/measuring-impact-digital-repositories). Presentation at the meeting on Measuring the Impact of Digital repositories, NSF, Arlington, VA.
+- Downs, R. R., Chen, R. S., & Schumacher, J. A. (2017). [Measuring the interdisciplinary impact of using geospatial data with remote sensing data](https://doi.org/10.7916/d8-57q4-h516). Paper PA11C-09 Presented at American Geophysical Union, Fall Meeting 2017. New Orleans, LA.
+- Liu, C. (2018). [Data Impact Score (DIS) —A quantitative method of data performance to the data-driven sciences](https://doi.org/10.3974/geodp.2018.02.02). *Journal of Global Change Data & Discovery*, *2*(2), 135-143.
+- Suleman, H. (2005). Analysis and evaluation of service oriented architectures for digital libraries. In C. Türker & H.-J. Schek (Eds.), *Peer-to-peer, grid, and service-orientation in digital library architectures* (pp. 130-146). Springer.
 
 ### Data sharing principles, recommendations and best practices
--Global Indigenous Data Alliance (n.d.). [CARE principles for Indigenous data governance](https://www.gida-global.org/care).
--Yarmey, L., & Baker, K. S. (2013). [Towards standardization: A participatory framework for scientific standard-making](https://doi.org/10.2218/ijdc.v8i1.252). *International Journal of Digital Curation*, *8*(1), 157–172.
+- Global Indigenous Data Alliance (n.d.). [CARE principles for Indigenous data governance](https://www.gida-global.org/care).
+- Yarmey, L., & Baker, K. S. (2013). [Towards standardization: A participatory framework for scientific standard-making](https://doi.org/10.2218/ijdc.v8i1.252). *International Journal of Digital Curation*, *8*(1), 157–172.
