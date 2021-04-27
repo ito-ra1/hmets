@@ -205,20 +205,20 @@ window.change = function () {
   var str = $('#aggr').find('option:selected').data('one');
 	State.variables.aggrList.push(str);
   $('#resultBox').val(str);
-};</script><tw-passagedata pid="1" name="Hello" tags="poof.ignore" position="259,555.6666666666667" size="200,200">!Hello!
+};</script><tw-passagedata pid="1" name="Start" tags="" position="262,326" size="100,200">!Hello!
 You are a data manager at your research institution&#39;s data repository.
 Your organization has committed to providing open research data to the community, and to adopt the &lt;a href=&quot;https://www.go-fair.org/fair-principles/&quot; target=_blank&gt;FAIR&lt;/a&gt; and &lt;a href=&quot;https://doi.org/10.1038/s41597-020-0486-7&quot; target=_blank&gt;TRUST&lt;/a&gt; principles for data sharing. 
 
-You would like to spearhead a project to serve your repository&#39;s metadata catalogue through an aggregation service, e.g. a harvestable metadata service, that increases the findability and interoperability of your repository assets.
+You would like to spearhead a project to serve your repository&#39;s metadata catalogue through an aggregation service, e.g., a harvestable metadata service that increases the findability and interoperability of your repository assets.
 
 !!You&#39;ve come to the right place...
 This interactive guide will walk you through some of the main issues that must be addressed to create metadata aggregation services.
 
 As you continue to gain insight into the aggregation landscape, and as you progress through the story and make decisions about your planned services, you will have the opportunity to record your answers. 
 
-At the end of the walk-through, you&#39;ll have the option to print out a semi-customized implementation plan draft for your repository. The full template document (not customized) can be downloaded &lt;a href=&quot;https://drive.google.com/file/d/1__nsZNXswpmYwJHsNKgDc57rBmKjba-B/view?usp=sharing&quot; target=_blank&gt;here&lt;/a&gt;.
+At the end of the walk-through, you&#39;ll have the option to print out a semi-customized implementation plan draft for your repository. The full template document (not customized) can be downloaded &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589012&quot; target=_blank&gt;here&lt;/a&gt;.
 
-&lt;&lt;button [[Get started!|Repository basics]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryCaption" tags="poof.ignore" position="38,550" size="200,100">&lt;div style=&quot;text-align: left;&quot;&gt;This site is an interactive guide through the process of planning and implementing harvestable metadata services at a research data repository. You&#39;ll find links and references to other online resources at every step.
+&lt;&lt;button [[Get started!|Repository basics]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="StoryCaption" tags="poof.ignore" position="34,323" size="200,100">&lt;div style=&quot;text-align: left;&quot;&gt;This site is an interactive guide through the process of planning and implementing harvestable metadata services at a research data repository. You&#39;ll find links and references to other online resources at every step.
 
 How to use this site: &lt;&lt;button &quot;Instructions&quot;&gt;&gt;
 	&lt;&lt;script&gt;&gt;
@@ -228,42 +228,41 @@ How to use this site: &lt;&lt;button &quot;Instructions&quot;&gt;&gt;
 	&lt;&lt;/script&gt;&gt;
 &lt;&lt;/button&gt;&gt;
 
-For more information, please go to the &lt;&lt;button &quot;Site Documentation&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;.&lt;/div&gt;
+For more information, please go to the &lt;a href=&quot;https://github.com/ito-ra1/hmets.github.io/blob/master/Twine_Implementation_Plan_for_Harvestable_Metadata_Services.pdf&quot; target=_blank&gt;&lt;&lt;button &quot;Site Documentation&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;&lt;/a&gt;.&lt;/div&gt;
 &lt;div style=&quot;font-size: 12px; text-align: left;&quot;&gt;
-__Last Update:__ March 8, 2021
+__Last Update:__ March 18, 2021
 Powered by &lt;a href=&quot;https://twinery.org/&quot; target=&quot;_blank&quot; style=&quot;color: black;&quot;&gt;Twine&lt;/a&gt;&lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="3" name="Instructions" tags="poof.ignore" position="43,663.3333333333334" size="200,100">__&#39;&#39;Navigating the implementation plan&#39;&#39;__
-&amp;bull; To move forward to the next step of the implementation plan, select one of the buttons, mostly at the bottom of each passage.
-&amp;bull; To return to the previous passage, select the left arrow &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;&amp;#8592;&lt;/strong&gt; that is located on top of the sidebar. 
+</tw-passagedata><tw-passagedata pid="3" name="Instructions" tags="poof.ignore" position="37,446" size="200,100">__&#39;&#39;Navigating the implementation plan&#39;&#39;__
+&amp;bull; To move forward to the next step of the implementation plan, select one of the buttons, usually at the bottom of each passage.
+&amp;bull; To return to the previous passage, select the left arrow &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;&amp;#8592;&lt;/strong&gt; located on top of the sidebar. 
 
 __&#39;&#39;Adjusting the sidebar&#39;&#39;__
 &amp;bull; To hide the sidebar, click &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;&amp;lt;&lt;/strong&gt; on the top right corner of the sidebar.
 &amp;bull; To unhide the sidebar, click &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;&amp;gt;&lt;/strong&gt; on the top right corner of the sidebar.
 
-__&#39;&#39;Saving and Restoring your Progress&#39;&#39;__
+__&#39;&#39;Saving and restoring your progress&#39;&#39;__
 Use the buttons at the bottom of the left sidebar.
 &amp;bull; You can save a local copy of your progress (a &lt;span style=&quot;color: #FA9D1C&quot;&gt;&lt;tt&gt;.save&lt;/tt&gt;&lt;/span&gt; file) to return to later. Selecting on the &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;SAVE &amp; LOAD&lt;/strong&gt; button will display a pop-up menu where you can select a local directory as destination for your progress. Select &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;SAVE &amp; LOAD&lt;/strong&gt; to finish saving the file.
 &amp;bull; To return to your saved walk-through, load the saved implementation progress by selecting &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;SAVE &amp; LOAD&lt;/strong&gt;. Locate the &lt;span style=&quot;color: #FA9D1C&quot;&gt;&lt;tt&gt;.save&lt;/tt&gt;&lt;/span&gt; file and select &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;LOAD&lt;/strong&gt; in the pop-up menu.
 &amp;bull; To remove any saved implementation progress files, select the &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;SAVE &amp; LOAD&lt;/strong&gt; button. Locate the saved implementation progress and click &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;DELETE&lt;/strong&gt;.
-&amp;bull; To restart the walk-through, select the &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;RESTART&lt;/strong&gt; button. Then click &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;OK&lt;/strong&gt; in the pop-up menu. </tw-passagedata><tw-passagedata pid="4" name="Catalogue" tags="poof.ignore" position="782,591.3333333333334" size="100,100">!Your repository catalogue
+&amp;bull; To restart the walk-through, select the &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;RESTART&lt;/strong&gt; button. Then click &lt;strong style=&quot;background-color: #4F81BD;&quot;&gt;OK&lt;/strong&gt; in the pop-up menu. </tw-passagedata><tw-passagedata pid="4" name="Metadata catalogue" tags="" position="636,526" size="100,100">!Your repository catalogue
 &#39;&#39;Current state of your repository&#39;&#39;
 The global RDM community has produced a few resources to assess the maturity of a data repository. They are practical, up-to-date frameworks to help you review your repository’s current state:
 *CoreTrustSeal Standards and Certification Board (2019). &lt;a href=&quot;http://doi.org/10.5281/zenodo.3638211&quot; target=_blank&gt;CoreTrustSeal trustworthy data repositories requirements 2020–2022&lt;/a&gt;.
-*RDA FAIR Data Maturity Model Working Group (2020). &lt;a href=&quot;https://doi.org/10.15497/RDA00050&quot; target=_blank&gt;FAIR data maturity model: specification and guidelines&lt;/a&gt;
+*RDA FAIR Data Maturity Model Working Group (2020). &lt;a href=&quot;https://doi.org/10.15497/RDA00050&quot; target=_blank&gt;FAIR data maturity model: specification and guidelines&lt;/a&gt;.
 *Lin, D., Crabtree, J., Dillo, I. et al. (2020). &lt;a href=&quot;https://doi.org/10.1038/s41597-020-0486-7&quot; target=_blank&gt;The TRUST Principles for digital repositories&lt;/a&gt;. //Scientific Data//, 7, 144(2020).
 *Rans, J., &amp; Whyte, A. (2017). &lt;a href=&quot;https://www.dcc.ac.uk/sites/default/files/documents/publications/UsingRISE_v1_1.pdf&quot; target=_blank&gt;Using RISE: The research infrastructure self-evaluation framework&lt;/a&gt;. Digital Curation Centre.
-
 The first thing you will need is a catalogue of well-formed metadata. 
 
 !!Does your repository already have a catalogue with standardized metadata?
 #Yes, you already have a catalogue. &lt;&lt;button [[Continue|Metadata standards]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#You have a metadata catalogue, but the metadata is not standardized.  &lt;&lt;button [[Improve your metadata catalogue|Almost metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#You do not have a metadata catalogue for your repository yet.  &lt;&lt;button [[Create your metadata catalogue|Almost metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="5" name="Making the case" tags="poof.ignore" position="606,447" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $authority to &quot;ask&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+#You have a metadata catalogue, but the metadata is not standardized.  &lt;&lt;button [[Improve your metadata catalogue|Improve metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#You do not have a metadata catalogue for your repository yet.  &lt;&lt;button [[Create your metadata catalogue|Improve metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+</tw-passagedata><tw-passagedata pid="5" name="Get permission" tags="" position="461,380" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $authority to &quot;ask&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Making the case!
 Sharing metadata through aggregators makes your repository assets more findable. This benefits your organization directly, as it can increase the reuse and impact of your datasets. 
 
-In research organizations without a strong culture of &lt;abbr title=&quot;Research Data Management&quot;&gt;RDM&lt;/abbr&gt;, it may take time to build support for expanding data services with initiatives such as a new metadata service. Through uses cases like the &lt;a href=&quot;https://doi.org/10.3390/ijgi5080133&quot; target=_blank&gt;Göttingen eResearch Alliance&lt;/a&gt;, we know that institutional support is built by engaging with the organization&#39;s key decision makers and stakeholders. Your stakeholders have to be able to envision the positive and tangible ways in which the project will impact their work, and how it will benefit the institution as a whole. Other challenges for less hierarchical organizations, such as research networks or federations, might be related to coordinating the development of a common standard or application profile, or the adoption of an existing technology (see, for example, &lt;a href=&quot;http://www.ijdc.net/article/view/8.1.157&quot; target=_blank&gt;Yarmey &amp; Baker’s 2013 proposal for a participatory framework for standards development&lt;/a&gt;. 
+In research organizations without a strong culture of &lt;abbr title=&quot;Research Data Management&quot;&gt;RDM&lt;/abbr&gt;, it may take time to build support for expanding data services with initiatives such as a new metadata service. Through uses cases like the &lt;a href=&quot;https://doi.org/10.3390/ijgi5080133&quot; target=_blank&gt;Göttingen eResearch Alliance&lt;/a&gt;, we know that institutional support is built by engaging with the organization&#39;s key decision makers and stakeholders. Your stakeholders have to be able to envision the positive and tangible ways in which the project will impact their work, and how it will benefit the institution as a whole. Other challenges for less hierarchical organizations, such as research networks or federations, might be related to coordinating the development of a common standard or application profile, or the adoption of an existing technology (see, for example, &lt;a href=&quot;http://www.ijdc.net/article/view/8.1.157&quot; target=_blank&gt;Yarmey &amp; Baker’s 2013 proposal for a participatory framework for standards development&lt;/a&gt;.) 
 
 !!Why create a harvestable metadata service?
 
@@ -271,7 +270,7 @@ Harvestable metadata is an established and widely-used tool to support effective
 
 The &lt;a href=&quot;https://doi.org/10.15497/RDA00050&quot; target=_blank&gt;FAIR&lt;/a&gt; framework lists harvestable metadata as an indicator of dataset findability. Harvestable metadata services are considered one measure of repository &lt;a href=&quot;https://doi.org/10.1038/s41597-020-0486-7&quot; target=_blank&gt;TRUSTworthiness&lt;/a&gt;. In fact, one of the certification requirements for the &lt;a href=&quot;https://www.coretrustseal.org/&quot; target=_blank&gt;CoreTrustSeal Trustworthy Repository&lt;/a&gt; designation is effective data discovery. 
 
-Findability relates to a catalogue&#39;s interoperability, whether a repository maintains a searchable metadata catalogue to appropriate standards, including persistent identifier systems. It also covers the ways in which metadata is made available, either by means of search interfaces on the repository site, via APIs, or through harvesting services. Additional criteria include repository presence in more than one resource registry (generic and disciplinary), and whether data citation recommendations are provided on the site.
+Findability relates to a catalogue&#39;s interoperability: whether a repository maintains a searchable metadata catalogue to appropriate standards, including persistent identifier systems. It also covers the ways in which metadata is made available, either by means of search interfaces on the repository site, via APIs, or through harvesting services. Additional criteria include repository presence in more than one resource registry (generic and disciplinary), and whether data citation recommendations are provided on the site.
 
 Before approaching the instance that will make a decision about your request to create a new metadata service, have a look at some resources to help you make your argument:
 *Chiarelli, A. &amp; Johnson, R. (2017) &lt;a href=&quot;https://doi.org/10.5281/zenodo.817936&quot; target=_blank&gt;Making the case for research data management - Case studies.&lt;/a&gt;
@@ -284,143 +283,156 @@ Before approaching the instance that will make a decision about your request to 
 #&lt;&lt;button [[permission was refused|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;  
 
 
-</tw-passagedata><tw-passagedata pid="6" name="Pre-final" tags="poof.ignore" position="734.3333333333333,144.66666666666669" size="100,100">&lt;&lt;if $congrats is &quot;t&quot; and $servicetype is &quot;traditional&quot;&gt;&gt;
+</tw-passagedata><tw-passagedata pid="6" name="Pre-final" tags="" position="1210,179" size="100,100">&lt;&lt;if $congrats is &quot;t&quot; and $servicetype is &quot;traditional&quot;&gt;&gt;
 !Congratulations!
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated.
 
 !!Please choose an option:
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving.|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving.|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;elseif $congrats is &quot;t&quot; and $servicetype is &quot;both&quot;&gt;&gt;
 !Congratulations! 
 You have reached the end of the implementation plan walk-through and you are ready to have your metadata aggregated. You are ready to start tackling semantic metadata aggregation for your repository as well! 
 
 !!Please choose an option:
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving.|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving.|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;elseif $servicetype is &quot;semantic&quot;&gt;&gt;
 !Congratulations! 
 You have reached the end of the implementation plan walk-through and you are ready to start tackling semantic metadata aggregation for your repository. 
 
 !!Please choose an option:
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving.|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving.|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;elseif $authority is &quot;ask&quot;&gt;&gt;
 !Don&#39;t give up!
 You may need to shelve this project until it&#39;s institutionally possible.
 
 !!Until then, please choose an option:
-#&lt;&lt;button [[Try again (restart the walk-through)|Hello]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[Try again (restart the walk-through)|Start]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;elseif $metadatafail is &quot;true&quot;&gt;&gt;
 !Don&#39;t give up!
 You may need to shelve this project until your catalogue and metadata are up to the standard you need.
 
 !!Until then, please choose an option:
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving.|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving.|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;elseif $servicetype is &quot;none&quot; or $aggrservice is &quot;postpone&quot; or $aggrprotocol is &quot;notmatch&quot;&gt;&gt;
 !Don&#39;t give up!
 You can come back later to make a plan that maximizes your datasets’ impact and reach by making the best of your current metadata services.
 
 !!Until then, please choose an option:
-#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation Plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[End the walk-through without saving.|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
+#&lt;&lt;button [[View and save a copy of your responses (print your customized implementation plan template)|Implementation plan]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[End the walk-through without saving.|End]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 
 &lt;&lt;else&gt;&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Game over" tags="to-print" position="1273,356.33333333333326" size="200,100">&lt;div style=&quot;text-align: center;&quot;&gt;End of story
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="End" tags="to-print" position="1179,26" size="200,100">&lt;div style=&quot;text-align: center;&quot;&gt;End of story
 
 Thank you for playing!
 
-&lt;&lt;button [[RESTART|Hello]]&gt;&gt;&lt;&lt;/button&gt;&gt; to play again.
+&lt;&lt;button [[RESTART|Start]]&gt;&gt;&lt;&lt;/button&gt;&gt; to play again.
 &lt;/div&gt;
 
 The International Technology Library (InTeLibrary) collects and shares RDM information resources, most of which are freely available on the web. It is curated and maintained by the International Technology Office (ITO). 
-Visit &lt;a href=&quot;https://www.zotero.org/groups/2597955/intelibrary_-_harvestable_metadata_services&quot; target=_blank&gt;InTeLibrary’s Harvestable Metadata Services collection&lt;/a&gt; for more than 300 resources about harvestable metadata services planning, development, and implementation. Areas covered include metadata standards, exchange protocols, metadata aggregation services, certification, assessment frameworks and metrics, as well as data sharing principles, best practices and recommendations.
+Visit InTeLibrary’s Harvestable Metadata Services collection at https://www.zotero.org/groups/2597955/intelibrary_-_harvestable_metadata_services for more than 300 resources about harvestable metadata services planning, development, and implementation. Areas covered include metadata standards, exchange protocols, metadata aggregation services, certification, assessment frameworks and metrics, as well as data sharing principles, best practices and recommendations.
 
-&lt;&lt;button &quot;Print the resources list&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UIBar.hide();window.print();&lt;&lt;/script&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button &quot;Print the resources list&quot;&gt;&gt;&lt;&lt;script&gt;&gt;window.print();&lt;&lt;/script&gt;&gt;&lt;&lt;/button&gt;&gt; 
+//~~(To optimize the print layout, it is recommended to minimize the sidebar by clicking the &lt; button on the top right corner of the sidebar before clicking the “Print your plan” button)~~// 
 
 !Resources
-!!Making the case for RDM and writing an implementation plan
-*Chiarelli, A. &amp; Johnson, R. (2017) &lt;a href=&quot;https://doi.org/10.5281/zenodo.817936&quot; target=_blank&gt;Making the case for research data management - Case studies&lt;/a&gt;.
-*CoreTrustSeal (2019). &lt;a href=&quot;https://doi.org/10.5281/ZENODO.3638211&quot; target=_blank&gt;CoreTrustSeal trustworthy data repositories requirements 2020-2022&lt;/a&gt;
-*Dierkes, J. &amp; Wuttke, U. (2016) &lt;a href=&quot;https://doi.org/10.3390/ijgi5080133&quot; target=_blank&gt;The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management&lt;/a&gt;. //ISPRS International Journal of Geo-Information//, //5//(8), 1-11.
-*Garnett A., Leahey, A., Savard, D., Towell, B., &amp; Wilson, L. (2017) &lt;a href=&quot;https://doi.org/10.1080/19386389.2018.1443698&quot; target=_blank&gt;Open metadata for research data discovery in Canada&lt;/a&gt;. //Journal of Library Metadata//, //17//(3–4), 201-217
-*International Science Council (2019) &lt;a href=&quot;https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf&quot; target=_blank&gt;Advancing science as a global public good: Action plan 2019-2021&lt;/a&gt;.
-*RDA FAIR Data Maturity Model Working Group (2020). &lt;a href=&quot;https://doi.org/10.15497/RDA00050&quot; target=_blank&gt;FAIR data maturity model: Specification and guidelines&lt;/a&gt;. Research Data Alliance
-*Whyte, A. &amp; Tedds, J. (2011) &lt;a href=&quot;https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm&quot; target=_blank&gt;Making the case for research data management&lt;/a&gt;.
-*Yarmey, L., &amp; Baker, K. S. (2013). &lt;a href=&quot;https://doi.org/10.2218/ijdc.v8i1.252&quot; target=_blank&gt;Towards standardization: A participatory framework for scientific standard-making&lt;/a&gt;. //International Journal of Digital Curation//, //8//(1), 157–172.
+!!Making the case for &lt;abbr title=&quot;Research Data Management&quot;&gt;RDM&lt;/abbr&gt; and writing an implementation plan
+*Chiarelli, A. &amp; Johnson, R. (2017). Making the case for research data management - Case studies. https://doi.org/10.5281/zenodo.817936
+*CoreTrustSeal (2019). CoreTrustSeal trustworthy data repositories requirements 2020-2022. https://doi.org/10.5281/ZENODO.3638211
+*Dierkes, J. &amp; Wuttke, U. (2016). The Göttingen eResearch Alliance: A case study of developing and establishing institutional support for research data management. //ISPRS International Journal of Geo-Information//, //5//(8), 1-11. https://doi.org/10.3390/ijgi5080133
+*Garnett A., Leahey, A., Savard, D., Towell, B., &amp; Wilson, L. (2017). Open metadata for research data discovery in Canada. //Journal of Library Metadata//, //17//(3–4), 201-217. https://doi.org/10.1080/19386389.2018.1443698
+*International Science Council (2019). Advancing science as a global public good: Action plan 2019-2021. https://council.science/wp-content/uploads/2019/12/Advancing-Science-as-a-Global-Public-Good_ISC-Action-Plan-landscape.pdf
+*RDA FAIR Data Maturity Model Working Group (2020). FAIR data maturity model: Specification and guidelines. Research Data Alliance. https://doi.org/10.15497/RDA00050
+*Whyte, A. &amp; Tedds, J. (2011). Making the case for research data management. https://www.dcc.ac.uk/guidance/briefing-papers/making-case-rdm
+*Yarmey, L., &amp; Baker, K. S. (2013). Towards standardization: A participatory framework for scientific standard-making. //International Journal of Digital Curation//, //8//(1), 157–172. https://doi.org/10.2218/ijdc.v8i1.252
 
 !!Interoperability
-*Crosas, Mercè. (2019). &lt;a href=&quot;https://scholar.harvard.edu/mercecrosas/presentations/data-federation-standards-best-practices-and-thoughts&quot; target=_blank&gt;Data federation: Standards, best practices, and thoughts&lt;/a&gt;. Presented at the Sixth Open Research Cloud Alliance Workshop, May 22, 2019. 
-*Research Data Repository Interoperability Working Grouop (2017). &lt;a href=&quot;http://doi.org/10.15497/RDA00020&quot; target=_blank&gt;Research data repository interoperability primer&lt;/a&gt;.
-*Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., ... Mons, B. (2016). &lt;a href=&quot;https://doi.org/10.1038/sdata.2016.18&quot; target=_blank&gt;The FAIR guiding principles for scientific data management and stewardship&lt;/a&gt;. //Scientific Data//, //3//(1), 1–9.
-*Verhey, C., Urquidi Díaz, A., &amp; Payne, K. (2021). &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589084&quot; target=_blank&gt;14 metadata syndication things: Training guide&lt;/a&gt;. WDS International Technology Office.
-*Zhao, Z., &amp; Hellström, M. (2020). //&lt;a href=&quot;https://doi.org/10.1007/978-3-030-52829-4&quot; target=_blank&gt;Towards interoperable research infrastructures for Environmental and Earth Sciences : A reference model guided approach for common challenges&lt;/a&gt;//. Springer Nature.
+*Crosas, M. (2019). Data federation: Standards, best practices, and thoughts. Presented at the Sixth Open Research Cloud Alliance Workshop, May 22, 2019. https://scholar.harvard.edu/mercecrosas/presentations/data-federation-standards-best-practices-and-thoughts
+*Research Data Repository Interoperability Working Grouop (2017). Research data repository interoperability primer. http://doi.org/10.15497/RDA00020
+*Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., ... Mons, B. (2016). The FAIR guiding principles for scientific data management and stewardship. //Scientific Data//, //3//(1), 1–9. https://doi.org/10.1038/sdata.2016.18
+*Verhey, C., Urquidi Díaz, A., &amp; Payne, K. (2021). 14 metadata syndication things: Training guide. https://doi.org/10.5281/zenodo.4589084
+*Zhao, Z., &amp; Hellström, M. (2020). //Towards interoperable research infrastructures for Environmental and Earth Sciences : A reference model guided approach for common challenges//. Springer Nature. https://doi.org/10.1007/978-3-030-52829-4
 
-!!Metadata Standards
-*Digital Curation Centre (n.d.). &lt;a href=&quot;https://www.dcc.ac.uk/guidance/standards/metadata&quot;&gt;Disciplinary metadata.&lt;/a&gt;
-*Research Data Alliance Metadata Standards Directory Working Group (n.d.). &lt;a href=&quot;http://rd-alliance.github.io/metadata-directory/&quot; target=_blank&gt;Metadata&lt;/a&gt;.
-*Tilmes, C. (2013). &lt;a href=&quot;https://commons.esipfed.org/node/1424&quot; target=_blank&gt;Data formats: Choosing and adopting community accepted standards&lt;/a&gt;.
-*WDS-ITO SDO Interoperability Primer 
+!!Metadata standards
+*Digital Curation Centre (n.d.). Disciplinary metadata. https://www.dcc.ac.uk/guidance/standards/metadata
+*Payne, K, &amp; Verhey, C. (2021). Schema.org for Research Data Managers: A Primer. https://docs.google.com/document/d/1fay3uIqIO2rljVBTk6Sk6i1I3yRnVecn-UTl3JKXLnw/edit?ts=601451e3# 
+*Research Data Alliance Metadata Standards Directory Working Group (n.d.). Metadata. http://rd-alliance.github.io/metadata-directory/
+*Tilmes, C. (2013). Data formats: Choosing and adopting community accepted standards. https://commons.esipfed.org/node/1424
 
 !!Machine interoperable interfaces
 !!!ERDDAP
-*National Oceanic and Atomspheric Administration (n.d.). &lt;a href=&quot;https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html&quot; target=_blank&gt;Set up your own ERDDAP&lt;/a&gt;.
+*National Oceanic and Atomspheric Administration (n.d.). Set up your own ERDDAP. https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html
 !!!ResourceSync
-*Knoth, P., Cancellieri, M., &amp; Klein, M. (2019). &lt;a href=&quot;https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync&quot; target=_blank&gt;Comparing the Performance of OAI-PMH with ResourceSync&lt;/a&gt;.
-*Sompel, H. V. (2014). &lt;a href=&quot;https://www.niso.org/standards-committees/resourcesync&quot; target=_blank&gt;Overview of ResourceSync&lt;/a&gt;.
-!!!Open Archives Initiative-Protocol for Metadata Harvesting(OAI-PMH)
-*Breeding, M. (2002). &lt;a href=&quot;	https://librarytechnology.org/document/9944&quot; target=_blank&gt;Understanding the Protocol for Metadata Harvesting of the Open Archives Initiative&lt;/a&gt;. //Computers in LIbraries//, //22//(8), 24-29.
-*Carpenter, L. (2003). &lt;a href=&quot;https://web.archive.org/web/20180418113309/http://www.oaforum.org/tutorial/english/page4.htm&quot; target=_blank&gt;Implementing OAI-PMH&lt;/a&gt;.
-*Haslhofer, B., &amp; Schandl, B. (2010). &lt;a href=&quot;https://doi.org/10.1504/IJMSO.2010.032648&quot; target=_blank&gt;Interweaving OAI-PMH data sources with the linked data cloud&lt;/a&gt;. //International Journal of Metadata, Semantics and Ontologies (IJMSO)//, //5//(1), 17-31.
-*Kata team repository (n.d.). &lt;a href=&quot;https://extensions.ckan.org/extension/oaipmh/&quot; target=_blank&gt;Open Archives Initiative-Protocol for Metadata Harvesting(OAI PMH) extension to CKAN&lt;/a&gt;
-*Knoth, P., Cancellieri, M., &amp; Klein, M. (2019). &lt;a href=&quot;https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync&quot; target=_blank&gt;Comparing the Performance of OAI-PMH with ResourceSync&lt;/a&gt;.
-*Lagoze, C., Sompel, H.V., Nelson, M., &amp; Warner, S. (2005). &lt;a href=&quot;http://www.openarchives.org/OAI/2.0/guidelines-repository.htm&quot; target=_blank&gt;Implementation guidelines for the Open Archives Initiative Protocol for Metadata Harvesting: Guidelines for repository implementers&lt;/a&gt;
+*Knoth, P., Cancellieri, M., &amp; Klein, M. (2019).Comparing the Performance of OAI-PMH with ResourceSync. https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync
+*Sompel, H. V. (2014). Overview of ResourceSync. https://www.niso.org/standards-committees/resourcesync
+!!!Open Archives Initiative-Protocol for Metadata Harvesting (OAI-PMH)
+*Breeding, M. (2002). Understanding the Protocol for Metadata Harvesting of the Open Archives Initiative. //Computers in Libraries//, //22//(8), 24-29. https://librarytechnology.org/document/9944
+*Carpenter, L. (2003). Implementing OAI-PMH. https://web.archive.org/web/20180418113309/http://www.oaforum.org/tutorial/english/page4.htm
+*Haslhofer, B., &amp; Schandl, B. (2010). Interweaving OAI-PMH data sources with the linked data cloud. //International Journal of Metadata, Semantics and Ontologies (IJMSO)//, //5//(1), 17-31. https://doi.org/10.1504/IJMSO.2010.032648
+*Kata team repository (n.d.). Open Archives Initiative-Protocol for Metadata Harvesting(OAI PMH) extension to CKAN. https://extensions.ckan.org/extension/oaipmh/
+*Knoth, P., Cancellieri, M., &amp; Klein, M. (2019). Comparing the Performance of OAI-PMH with ResourceSync. https://www.slideshare.net/martinklein0815/comparing-the-performance-of-oaipmh-with-resourcesync
+*Lagoze, C., Sompel, H.V., Nelson, M., &amp; Warner, S. (2005). Implementation guidelines for the Open Archives Initiative Protocol for Metadata Harvesting: Guidelines for repository implementers. http://www.openarchives.org/OAI/2.0/guidelines-repository.htm
 !!!Open Geospatial Consortium-Catalogue Services for the Web (OGC-CSW) 
-*Open Geospatial Consortium (n.d.). &lt;a href=&quot;https://www.ogc.org/standards/cat2eoext4ebrim&quot; target=_blank&gt;Catalogue Services standard 2.0 extension package for ebRIM application profile: Earth Observation Products&lt;/a&gt;.
-*Open Geospatial Consortium (n.d.). &lt;a href=&quot;https://ogcapi.ogc.org/records/overview.html&quot; target=_blank&gt;OGC API - Records - Overview&lt;/a&gt;.
+*Open Geospatial Consortium (n.d.). Catalogue Services standard 2.0 extension package for ebRIM application profile: Earth Observation Products. https://www.ogc.org/standards/cat2eoext4ebrim
+*Open Geospatial Consortium (n.d.). OGC API - Records - Overview. https://ogcapi.ogc.org/records/overview.html
 !!!International Organization for Standardization (ISO)
-International Organization for Standardization (2005). &lt;a href=&quot;https://www.iso.org/standard/32546.html&quot; target=_blank&gt;ISO 19128:2005: Geographic information — Web map server interface&lt;/a&gt;.
+*International Organization for Standardization (2005). ISO 19128:2005: Geographic information — Web map server interface. https://www.iso.org/standard/32546.html
 !!!Sitemaps
-Sitemap.org (2016). &lt;a href=&quot;https://www.sitemaps.org/protocol.html&quot; target=_blank&gt;Sitemaps XML format&lt;/a&gt;.
+*Sitemap.org (2016). Sitemaps XML format. https://www.sitemaps.org/protocol.html
 
-!!Metadata Aggregators
-*Hudson-Vitale, C. (2017). &lt;a href=&quot;https://openscholarship.wustl.edu/lib_papers/19/&quot; target=_blank&gt;The current state of meta-repositories for data&lt;/a&gt;. In //University Libraries Publications// (pp. 251-261). Washington University in St. Louis.
-*Schirrwagen, J. (2019). &lt;a href=&quot;https://www.opensciencefair.eu/images/workshops/OSFair2019_74-BASE.pdf&quot; target=_blank&gt;Cross-disciplinary discovery in a global repository network: The case of BASE – Bielefeld Academic Search Engine&lt;/a&gt;. Presented at the Open Science Fair Workshop on Data Discovery Across Disciplines, Porto, Portugal.
-*World Data System-International Technology Office (2021). &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589055&quot; target=_blank&gt;Guide to metadata aggregators for repository managers&lt;/a&gt;, and the &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589050&quot; target=_blank&gt;Searchable index of metadata aggregators&lt;/a&gt; 
+!!Metadata aggregators
+*Hudson-Vitale, C. (2017). The current state of meta-repositories for data. In //University Libraries Publications// (pp. 251-261). Washington University in St. Louis. https://openscholarship.wustl.edu/lib_papers/19/
+*Schirrwagen, J. (2019). Cross-disciplinary discovery in a global repository network: The case of BASE – Bielefeld Academic Search Engine. Presented at the Open Science Fair Workshop on Data Discovery Across Disciplines, Porto, Portugal. https://www.opensciencefair.eu/images/workshops/OSFair2019_74-BASE.pdf
+*Urquidi Díaz, A., Li, W. A. W., &amp; Payne, K. (2021). Metadata aggregators: A WDS guide for research data repository managers. https://doi.org/10.5281/zenodo.4589050
+
+!!Semantic markup and Schema.org
+*Benjelloun, O, Chen, S., &amp; Noy, N. (2020). Google Dataset Search by the numbers. https://arxiv.org/abs/2006.06894
+*FAIRsFAIR (2020). FAIR Semantics. https://github.com/FAIRsFAIR/FAIRSemantics
+*Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.,  Gräf, F., Hallett, R., Bernal Llinares, M., &amp; Clark, T. (2018). Listing of data repositories that embed schema.org metadata in dataset landing pages. https://doi.org/10.5281/zenodo.1202174
+*Ogbuji, U. (2017). Introduction to the Schema.org information model: Make your data more useful in automated applications. https://developer.ibm.com/articles/wa-schemaorg1/
+*Payne, K, &amp; Verhey, C. (2021). How to use RDA crosswalks to recommend SDO markup in metadata. https://doi.org.10.5281/zenodo.4589090
+*Research Data Alliance Research Metadata Schemas Working Group (2021). Crosswalks form schemas to schema.org. https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing
+*Schema.org (2018). Community examples. https://github.com/schemaorg/schemaorg/wiki/Community-Examples
+*Schema.org (2018). External resources. https://github.com/schemaorg/schemaorg/wiki/External-Resources
+*W3C Community and Business Groups (n.d.). Schema.org Community Group. https://www.w3.org/community/schemaorg/
 
 !!Measuring success
-*Crosas, M. (2017). &lt;a href=&quot;https://scholar.harvard.edu/mercecrosas/presentations/measuring-impact-digital-repositories&quot; target=_blank&gt;Measuring the impact of digital repositories&lt;/a&gt;. Presentation at the meeting on Measuring the Impact of Digital repositories, NSF, Arlington, VA.
-*Downs, R. R., Chen, R. S., &amp; Schumacher, J. A. (2017). &lt;a href=&quot;https://doi.org/10.7916/d8-57q4-h516&quot; taraget=_blank&gt;Measuring the interdisciplinary impact of using geospatial data with remote sensing data&lt;/a&gt;. Paper PA11C-09 Presented at American Geophysical Union, Fall Meeting 2017. New Orleans, LA.
-*Liu, C. (2018). &lt;a href=&quot;https://doi.org/10.3974/geodp.2018.02.02&quot; target=_blank&gt;Data Impact Score (DIS) —A quantitative method of data performance to the data-driven sciences&lt;/a&gt;. //Journal of Global Change Data &amp; Discovery//, //2//(2), 135-143.
-*Suleman, H. (2005). Analysis and evaluation of service oriented architectures for digital libraries. In C. Türker &amp; H.-J. Schek (Eds.), //Peer-to-peer, grid, and service-orientation in digital library architectures// (pp. 130-146). Springer.
+*Crosas, M. (2017). Measuring the impact of digital repositories. Presentation at the meeting on Measuring the Impact of Digital repositories, NSF, Arlington, VA. https://scholar.harvard.edu/mercecrosas/presentations/measuring-impact-digital-repositories
+*COUNTER (n.d.). The COUNTER code of practice for release 5. https://www.projectcounter.org/code-of-practice-five-sections/abstract/
+*Downs, R. R., Chen, R. S., &amp; Schumacher, J. A. (2017). Measuring the interdisciplinary impact of using geospatial data with remote sensing data. Paper PA11C-09 Presented at American Geophysical Union, Fall Meeting 2017. New Orleans, LA. https://doi.org/10.7916/d8-57q4-h516
+*Liu, C. (2018). Data Impact Score (DIS) —A quantitative method of data performance to the data-driven sciences. //Journal of Global Change Data &amp; Discovery//, //2//(2), 135-143. https://doi.org/10.3974/geodp.2018.02.02
+*Suleman, H. (2005). Analysis and evaluation of service oriented architectures for digital libraries. In C. Türker &amp; H.-J. Schek (Eds.), //Peer-to-peer, grid, and service-orientation in digital library architectures// (pp. 130-146). Springer. https://www.springer.com/gp/book/9783540287117
 
 !!Data sharing principles, recommendations and best practices
-*Global Indigenous Data Alliance (n.d.). &lt;a href=&quot;https://www.gida-global.org/care&quot; target=_blank&gt;CARE principles for Indigenous data governance&lt;/a&gt;.
-*Yarmey, L., &amp; Baker, K. S. (2013). &lt;a href=&quot;https://doi.org/10.2218/ijdc.v8i1.252&quot; target=_blank&gt;Towards standardization: A participatory framework for scientific standard-making&lt;/a&gt;. //International Journal of Digital Curation//, //8//(1), 157–172.</tw-passagedata><tw-passagedata pid="8" name="Metadata standards" tags="poof.ignore" position="904,591.0000000000001" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $metadatafail to &quot;false&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+*Global Indigenous Data Alliance (n.d.). CARE principles for Indigenous data governance. https://www.gida-global.org/care
+*Yarmey, L., &amp; Baker, K. S. (2013). Towards standardization: A participatory framework for scientific standard-making. //International Journal of Digital Curation//, //8//(1), 157–172. https://doi.org/10.2218/ijdc.v8i1.252</tw-passagedata><tw-passagedata pid="8" name="Metadata standards" tags="" position="760,527" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $metadatafail to &quot;false&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Metadata in your repository
 Metadata that uses established, interoperable standards can be more easily transformed and exchanged in a research data ecosystem. If metadata is syndicated through a federated service, it can be shared and retrieved via search interfaces across different subject domains, making datasets more findable.
 
-(For more information and resources on metadata standards, take a quick detour through the [[Metadata|Almost metadata]] section)
+(For more information and resources on metadata standards, take a quick detour through the [[Metadata|Improve metadata]] section)
 
 !!Your options:
-#Name the metadata schema, standards and/or formats used in your repository &lt;&lt;textarea &quot;$mdstandards&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Services &amp; Protocols]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#If you&#39;d rather not provide that information yet, &lt;&lt;button[[skip to the next step|Services &amp; Protocols]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Almost metadata" tags="poof.ignore" position="837,433.33333333333326" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $metadatafail = &quot;true&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+#Name the metadata schema, standards and/or formats used in your repository &lt;&lt;textarea &quot;$mdstandards&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Metadata transfer services]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#If you&#39;d rather not provide that information yet, &lt;&lt;button[[skip to the next step|Metadata transfer services]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Improve metadata" tags="" position="706,374" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $metadatafail = &quot;true&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Creating (or improving) a metadata catalogue
 
 Different aggregators can support different metadata standards and transfer protocols. Some common metadata standards include &lt;a href=&quot;https://schema.datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt;, the &lt;a href=&quot;https://www.dublincore.org/schemas/&quot; target=_blank&gt;Dublin Core Metadata Initiative (DCMI)&lt;/a&gt;, the &lt;a href=&quot;https://ddialliance.org/&quot; target=_blank&gt;Data Documentation Initiative (DDI)&lt;/a&gt;, and &lt;a href=&quot;https://www.iso.org/standard/53798.html&quot; target=_blank&gt;ISO 19115-1:2014&lt;/a&gt;, which is part of the &lt;a href=&quot;https://schemas.isotc211.org/&quot; target=_blank&gt;ISO 1900 series&lt;/a&gt; of geographic information standards.
 
 Here are some resources to get you started:
 *Riley, J. (2017). &lt;a href=&quot;https://groups.niso.org/apps/group_public/download.php/17446/Understanding%20Met%E2%80%A6&quot; target=_blank&gt;Understanding metadata: What is metadata, and what is it for?&lt;/a&gt; National	Information	Standards	Organization. 
-*ANDS (2016). &lt;a href=&quot;https://www.ands.org.au/guides/metadata-working&quot;&gt;Guide to Metadata (Working Level)&lt;/a&gt;. 
-*Digital Curation Centre (n.d.). &lt;a href=&quot;https://www.dcc.ac.uk/guidance/standards/metadata&quot;&gt;Disciplinary metadata.&lt;/a&gt;
+*ANDS (2016). &lt;a href=&quot;https://www.ands.org.au/guides/metadata-working&quot; target=_blank&gt;Guide to Metadata (Working Level)&lt;/a&gt;. 
+*Digital Curation Centre (n.d.). &lt;a href=&quot;https://www.dcc.ac.uk/guidance/standards/metadata&quot; target=_blank&gt;Disciplinary metadata.&lt;/a&gt;
 *Research Data Alliance Metadata Standards Directory Working Group (n.d.). &lt;a href=&quot;http://rd-alliance.github.io/metadata-directory/&quot; target=_blank&gt;Metadata&lt;/a&gt;.
 *Riley, J. (2018). &lt;a href=&quot;https://doi.org/10.5683/SP2/UOHPVH&quot; target=_blank&gt;Seeing standards: A visualization of the metadata universe&lt;/a&gt;.
 
@@ -431,46 +443,46 @@ Upon reviewing the metadata resources, were you able to create a catalogue for y
 
 #&lt;&lt;button [[Yes, you now have a catalogue of well-formed metadata.|Metadata standards]]&gt;&gt;&lt;&lt;/button&gt;&gt;       
 #&lt;&lt;button [[No. You found that you currently lack the resources to create a catalogue or improve your existing metadata.|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="10" name="Services &amp; Protocols" tags="" position="1029.3333333333333,587.0000000000001" size="100,100">!Existing service protocols
+</tw-passagedata><tw-passagedata pid="10" name="Metadata transfer services" tags="" position="885,527" size="100,100">!Existing metadata transfer service protocols
 The metadata in your repository is now ready to be aggregated. Is your catalogue already being shared? For example, is it already searchable on your repository&#39;s site, or is it already served using a metadata transfer protocol?
 
 Some common protocols include the &lt;a href=&quot;https://www.openarchives.org/pmh/&quot; target=_blank&gt;Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)&lt;/a&gt;, the &lt;a href=&quot;https://www.ogc.org/standards/cat&quot; target=_blank&gt;Open Geospatial Consortium-Catalogue Service for the Web (OGC-CSW)&lt;/a&gt;, &lt;a href=&quot;https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html&quot; target=_blank&gt;ERDDAP&lt;/a&gt;, or the &lt;a href=&quot;https://www.niso.org/standards-committees/resourcesync&quot; target=_blank&gt;ResourceSync&lt;/a&gt; protocol. 
 
-Some repository platforms have a specific API that can connect to data services, like the &lt;a href=&quot;https://ckan.org/portfolio/api/&quot; target=_blank&gt;CKAN-API&lt;/a&gt;, or the &lt;a href=&quot;https://guides.dataverse.org/en/latest/api/index.html&quot; target=_blank&gt;Dataverse API&lt;/a&gt;. Aggregators may support one or many protocols, or APIs (see for example the extensive list of protocols supported by the &lt;a href=&quot;https://www.geodab.net/&quot; target=_blank&gt;GEOSS Discovery and Access Broker.&lt;/a&gt;)
+Some repository platforms have a specific API that can connect to data services, like the &lt;a href=&quot;https://ckan.org/portfolio/api/&quot; target=_blank&gt;CKAN-API&lt;/a&gt;, or the &lt;a href=&quot;https://guides.dataverse.org/en/latest/api/index.html&quot; target=_blank&gt;Dataverse API&lt;/a&gt;. Aggregators may support one or many protocols, or APIs (see for example the extensive list of protocols supported by the &lt;a href=&quot;https://www.geodab.net/&quot; target=_blank&gt;GEOSS Discovery and Access Broker&lt;/a&gt;).
 
 !!Your options:
-#Metadata in your repository is being shared via the following services and/or protocols: &lt;&lt;textarea &quot;$protocol&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|New services]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#If you&#39;d rather not fill out this part yet, &lt;&lt;button [[skip to the next step|New services]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="11" name="New services" tags="poof.ignore" position="1152,588.0000000000001" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;none&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+#Metadata in your repository is being shared via the following services and/or protocols: &lt;&lt;textarea &quot;$protocol&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|New harvestable metadata services]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#If you&#39;d rather not fill out this part yet, &lt;&lt;button [[skip to the next step|New harvestable metadata services]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+</tw-passagedata><tw-passagedata pid="11" name="New harvestable metadata services" tags="" position="1011,524" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;none&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !New services
-To help you understand more about metadata aggregation, we recommend reading the new International Technology Office (WDS-ITO) Guide, &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589084&quot; target=_blank&gt;14 Metadata Syndication things&lt;/a&gt;.
+To help you understand more about metadata aggregation, we recommend reading the new International Technology Office (WDS-ITO) Guide, &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589084&quot; target=_blank&gt;14 metadata syndication things: Training guide&lt;/a&gt;.
 
 If you are interested in creating a new metadata service, there are essentially two main types of metadata aggregation available to choose from:
 
-&#39;&#39;1. &#39;Traditional&#39; metadata aggregation&#39;&#39;
-This approach relies on structured metadata that is schema-based and serialized into a standardized file type (e.g. XML, JSON), which is used to index the metadata records into a federated catalogue. The Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;--which harvests metadata catalogues using the &lt;a href=&quot;http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#MinimalImplementation&quot; target=_blank&gt;OAI-PMH&lt;/a&gt; protocol, and aggregates metadata using the &lt;a href=&quot;https://schema.datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt; schema--is a successful and well-documented example of the &#39;traditional&#39; approach to metadata syndication.
+&#39;&#39;1. Traditional metadata aggregation&#39;&#39;
+This approach relies on structured metadata that is schema-based and serialized into a standardized file type (e.g., XML, JSON), which is used to index the metadata records into a federated catalogue. The Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;--which harvests metadata catalogues using the &lt;a href=&quot;http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#MinimalImplementation&quot; target=_blank&gt;OAI-PMH&lt;/a&gt; protocol, and aggregates metadata using the &lt;a href=&quot;https://schema.datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt; schema--is a successful and well-documented example of the &#39;traditional&#39; approach to metadata syndication.
 
 &#39;&#39;2. Semantic aggregation&#39;&#39;
-Within the RDM community, semantic aggregation occurs most frequently  with SDO metadata markup (specifically, &lt;a href=&quot;https://schema.org/&quot; target=_blank&gt;Schema.org&lt;/a&gt;, pronounced //Schema Dot Org//, or SDO) in a repository or data catalogue. SDO is a controlled vocabulary used to mark up content in a webpage in a way that search engines can understand. The core SDO vocabulary is constantly under development, and it grows in response to use cases across many communities. SDO can be used to describe many different things (“object types”) referred to in a webpage, including recipes, job posts, book reviews and in our case, datasets and data catalogues. Dataset landing pages, which contain datasert metadata records, are marked up with SDO terms and web crawlers such as &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt; index these tags and use them to populate their search results. For more on semantic aggregation, we recommend reading ‘Thing 3: Semantics and Schema.org’ in the &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589084&quot; target=_blank&gt;14 Metadata Syndication things&lt;/a&gt; guide.
+Within the RDM community, semantic aggregation occurs most frequently  with SDO metadata markup (specifically, &lt;a href=&quot;https://schema.org/&quot; target=_blank&gt;Schema.org&lt;/a&gt;, pronounced //Schema Dot Org//, or SDO) in a repository or data catalogue. SDO is a controlled vocabulary used to mark up content in a webpage in a way that search engines can understand. The core SDO vocabulary is constantly under development, and it grows in response to use cases across many communities. SDO can be used to describe many different things (“object types”) referred to in a webpage, including recipes, job posts, book reviews and in our case, datasets and data catalogues. Dataset landing pages, which contain datasert metadata records, are marked up with SDO terms, and web crawlers such as &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt; index these tags and use them to populate their search results. For more on semantic aggregation, we recommend reading ‘Thing 3: Semantics and Schema.org’ in the &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589084&quot; target=_blank&gt;14 metadata syndication things: Training guide&lt;/a&gt; guide.
 
-!!Your options:
-#&lt;&lt;button [['Traditional' aggregation only|Aggregators]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[Semantic aggregation only|Semantic metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[Both traditional and semantic aggregation|Both-Semantic]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#&lt;&lt;button [[None of them|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="Aggregators" tags="poof.ignore" position="1339.6666666666663,553.3333333333338" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;traditional&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+!!I am interested in:
+#&lt;&lt;button [[traditional aggregation only|Traditional aggregation]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[semantic aggregation only|Semantic aggregation]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[both traditional and semantic aggregation|Both-semantic]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[none of them|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="Traditional aggregation" tags="" position="1210,449" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;traditional&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Find a metadata aggregator
 
 The &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589050&quot; target=_blank&gt;Searchable Index of Metadata Aggregators&lt;/a&gt;, a new product by the International Technology Office (WDS-ITO), contains up-to-date information about 70 platforms that are currently providing metadata aggregation services. To search this database, &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589050&quot; target=_blank&gt;download it from Zenodo&lt;/a&gt;. The package contains an MS Access database with its associated documentation, as well as a PDF copy of the entire index.
 
 !!The basics
-Some platforms only aggregate metadata related to a specific region, for example the &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository(FRDR)&lt;/a&gt;, or &lt;a href=&quot;https://researchdata.edu.au/&quot; target=_blank&gt;Research Data Australia&lt;/a&gt;. Other platforms only aggregate metadata related to a specific subject domain, like &lt;a href=&quot;https://www.clarin.eu/content/virtual-language-observatory-vlo&quot; target=_blank&gt;Clarin&#39;s Virtual Language Observatory&lt;/a&gt;.
+Some platforms only aggregate metadata related to a specific region, for example the &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, or &lt;a href=&quot;https://researchdata.edu.au/&quot; target=_blank&gt;Research Data Australia&lt;/a&gt;. Other platforms only aggregate metadata related to a specific subject domain, like &lt;a href=&quot;https://www.clarin.eu/content/virtual-language-observatory-vlo&quot; target=_blank&gt;Clarin&#39;s Virtual Language Observatory&lt;/a&gt;.
 
-Some examples of international, multidisciplinary metadata aggregators include the European open science project &lt;a href=&quot;https://explore.openaire.eu/&quot; target=_blank&gt;OpenAIRE&lt;/a&gt;, the Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, and &lt;a href=&quot;https://www.lareferencia.info/en/&quot; target=_blank&gt;LA Referencia&lt;/a&gt; in Latin America. Commercial aggregators such as &lt;a href=&quot;https://clarivate.com/webofsciencegroup/solutions/webofscience-data-citation-index/&quot; target=_blank&gt;Clarivate&#39;s Data Citation Index(DCI)&lt;/a&gt;, and &lt;a href=&quot;https://data.mendeley.com/&quot; target=_blank&gt;Elsevier&#39;s Mendeley Data&lt;/a&gt; also aggregate data from all regions and subject domains.
+Some examples of international, multidisciplinary metadata aggregators include the European open science project &lt;a href=&quot;https://explore.openaire.eu/&quot; target=_blank&gt;OpenAIRE&lt;/a&gt;, the Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, and &lt;a href=&quot;https://www.lareferencia.info/en/&quot; target=_blank&gt;LA Referencia&lt;/a&gt; in Latin America. Commercial aggregators such as &lt;a href=&quot;https://clarivate.com/webofsciencegroup/solutions/webofscience-data-citation-index/&quot; target=_blank&gt;Clarivate&#39;s Data Citation Index (DCI)&lt;/a&gt;, and &lt;a href=&quot;https://data.mendeley.com/&quot; target=_blank&gt;Elsevier&#39;s Mendeley Data&lt;/a&gt; also aggregate data from all regions and subject domains.
 
 !!Making choices
 When choosing metadata aggregator(s), there are a few things to consider:
 !!!Your community
-&lt;div style=&quot;margin-left: 1em;&quot;&gt;What data practices are established, or emerging in your community?&lt;/div&gt;
+&lt;div style=&quot;margin-left: 1em;&quot;&gt;What data practices are established or emerging in your community?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;What harvesters or repositories are being used in your subject area?&lt;/div&gt;
 !!!Findability goals
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;Who needs to be able to find your data?&lt;/div&gt;
@@ -482,13 +494,13 @@ When choosing metadata aggregator(s), there are a few things to consider:
 !!!Interoperability
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;How far will your current infrastructure take you?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 2em;&quot;&gt;&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Find services that already support your existing metadata and endpoints/protocols.//
-&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Software modules can bridge the gap between your (custom) repository and the harvester, e.g. &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt;, used by DataCite and FRDR, or &lt;a href=&quot;https://pycsw.org/&quot; target=_blank&gt;pycsw&lt;/a&gt;, an open-source implementation of the &lt;a href=&quot;https://docs.opengeospatial.org/is/12-168r6/12-168r6.html&quot; target=_blank&gt;OGC CSW&lt;/a&gt; standard for catalogue services.//&lt;/div&gt;
+&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Software modules can bridge the gap between your (custom) repository and the harvester, e.g., &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt;, used by &lt;a href=&quot;https://datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt; and &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/&quot; target=_blank&gt;&lt;abbr title=&quot;Federated Research Data Repository&quot;&gt;FRDR&lt;/abbr&gt;&lt;/a&gt;, or &lt;a href=&quot;https://pycsw.org/&quot; target=_blank&gt;pycsw&lt;/a&gt;, an open-source implementation of the &lt;a href=&quot;https://docs.opengeospatial.org/is/12-168r6/12-168r6.html&quot; target=_blank&gt;OGC CSW&lt;/a&gt; standard for catalogue services.//&lt;/div&gt;
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;Is your repository platform not supported by default?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 2em;&quot;&gt;&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Ask aggregators about custom support options!//&lt;/div&gt;
 
 !!Your options:
-#I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): &lt;br/&gt;&lt;&lt;textarea &quot;$aggrlist&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Metadata interoperability]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#I&#39;d rather not fill out this part yet. &lt;&lt;button [[Skip to the next step|Metadata interoperability]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="Metadata interoperability" tags="poof.ignore" position="1488.666666666667,551.6666666666667" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrservice = &quot;postpone&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+#I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): &lt;br/&gt;&lt;&lt;textarea &quot;$aggrlist&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Inter-operable metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#I&#39;d rather not fill out this part yet. &lt;&lt;button [[Skip to the next step|Inter-operable metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="Inter-operable metadata" tags="" position="1432,527" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrservice = &quot;postpone&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 &lt;&lt;if $aggrlist is &quot;&quot;&gt;&gt;!Metadata standards supported&lt;&lt;else&gt;&gt;
 !Metadata standards supported
 Upon reviewing the documentation for &#39;&#39;your selected aggregators: &#39;&#39;
@@ -503,9 +515,9 @@ Were you able to identify any aggregators that support the current metadata stan
 &lt;&lt;textarea &quot;$newstandards&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 
 Looking at the gaps between the current state of your catalogue and the required standards, you decide to:
-#&lt;&lt;button [[continue with the original plan to create a harvestable metadata service|Protocol interoperability]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#&lt;&lt;button [[continue with the original plan to create a harvestable metadata service|Inter-operable transfer protocol]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 #&lt;&lt;button [[postpone this project.|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="14" name="Protocol interoperability" tags="" position="1691.3333333333333,566.0000000000001" size="100,100">&lt;&lt;nobr&gt;&gt;
+</tw-passagedata><tw-passagedata pid="14" name="Inter-operable transfer protocol" tags="" position="1558,527" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;set $aggrservice = &quot;proceed&quot;&gt;&gt;
 &lt;&lt;set $aggrprotocol = &quot;match&quot;&gt;&gt;
 &lt;&lt;set $aggrsupport = &quot;notrequired&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
@@ -525,13 +537,13 @@ Are your repository’s software elements, APIs, and/or protocols supported by y
 &lt;&lt;button [[contact aggregator(s) directly to ask about custom support options.|Custom support]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 
-</tw-passagedata><tw-passagedata pid="15" name="This and that" tags="poof.ignore" position="2327,514.6666666666667" size="100,100">!Your Implementation Plan is almost completed. 
+</tw-passagedata><tw-passagedata pid="15" name="Project details" tags="" position="1858,373" size="100,100">!Your Implementation Plan is almost completed. 
 
 You have the following options:
 #You can end this walkthrough now by clicking on this button:  &lt;&lt;button[[Skip to the next step|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;, or 
-#Or you can use the section below to add more content to your implementation plan before printing it out. 
+#You can use the section below to add more content to your implementation plan before printing it out. 
 
-!!1. Project Summary
+!!1. Project summary
 &#39;&#39;1. Please write a summary of your project (50-150 words)&#39;&#39;
 &lt;&lt;textarea &quot;$summary&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 &#39;&#39;2. Additional repository developments/activities&#39;&#39;
@@ -543,7 +555,7 @@ Are there any other repository developments or activities that you want to consi
 #Conducting quality assurance
 #Adding provenance metadata
 &lt;&lt;textarea &quot;$workflows&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
-&#39;&#39;3. Resources needed (e.g. human effort, infrastructure upgrades, etc.)&#39;&#39;
+&#39;&#39;3. Resources needed (e.g., human effort, infrastructure upgrades, etc.)&#39;&#39;
 //Don’t underestimate the human effort required for a harvestable metadata project!//
 &lt;&lt;textarea &quot;$resources&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 &#39;&#39;4. Other support&#39;&#39;
@@ -552,7 +564,7 @@ To what extent does your repository&#39;s host organization provide material and
 &#39;&#39;5. Partners&#39;&#39;
 Are other organizations involved in this project? Do you have inter-institutional support from partners, groups, government or federations? Are there other projects related to this one? If so, please describe the nature of your collaborations/external support:
 &lt;&lt;textarea &quot;$partners&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
-&#39;&#39;6. Difficulties/Challenges&#39;&#39;
+&#39;&#39;6. Difficulties/challenges&#39;&#39;
 Can you think of any other difficulties or challenges in data sharing? For example, 
 #are you sharing open data or will a data sharing agreement or privacy controls be required?
 #do you have an existing research data  management plan or contract that you need to satisfy or a governance structure that needs to approve of your repository development plan?
@@ -560,29 +572,32 @@ Please describe the causes of these difficulties, and any possible measures to o
 &lt;&lt;textarea &quot;$challenges&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 &lt;&lt;button [[Submit &amp; continue|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="16" name="Semantic metadata" tags="poof.ignore" position="1602.6666666666665,384.6666666666665" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;semantic&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+</tw-passagedata><tw-passagedata pid="16" name="Semantic aggregation" tags="" position="1208,325" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;semantic&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Semantic metadata and Schema.org
-Semantic markup (i.e. Schema.org) is built into a metadata standard. As previously mentioned, &lt;abbr title=&quot;Schema Dot Org&quot;&gt;SDO&lt;/abbr&gt; is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt;. 
+Semantic markup (i.e., Schema.org) is built into a metadata standard. As previously mentioned, &lt;abbr title=&quot;Schema Dot Org&quot;&gt;SDO&lt;/abbr&gt; is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt;. 
 
 Importantly for those who manage sensitive or restricted data that are subject to privacy concerns, once a dataset is discovered in GDSS, the user is directed back to the repository to obtain the data. The access restrictions and protocols for data sharing remain as agreed upon during the submission process, and they are determined and maintained at the repository.
 
 Here are some resources for you to understand more about SDO and how to implement SDO into your repository:
 *Benjelloun, O, Chen, S., &amp; Noy, N. (2020). &lt;a href=&quot;https://arxiv.org/abs/2006.06894&quot; target=_blank&gt;Google Dataset Search by the numbers&lt;/a&gt;.
-*FAIRsFAIR (2020). &lt;a href=&quot;https://github.com/FAIRsFAIR/FAIRSemantics&quot; target=_blank&gt;FAIR Semantics&lt;/a&gt;
-*Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., &amp; Clark, T. (2018). &lt;a href=&quot;https://doi.org/10.5281/zenodo.1202174&quot; target=_blank&gt;Listing of data repositories that embed schema.org metadata in dataset landing pages&lt;/a&gt;.
+*FAIRsFAIR (2020). &lt;a href=&quot;https://github.com/FAIRsFAIR/FAIRSemantics&quot; target=_blank&gt;FAIR Semantics&lt;/a&gt;.
+*Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.,  Gräf, F., Hallett, R., Bernal Llinares, M., &amp; Clark, T. (2018). &lt;a href=&quot;https://doi.org/10.5281/zenodo.1202174&quot; target=_blank&gt;Listing of data repositories that embed schema.org metadata in dataset landing pages&lt;/a&gt;.
 *Ogbuji, U. (2017). &lt;a href=&quot;https://developer.ibm.com/articles/wa-schemaorg1/&quot; target=_blank&gt;Introduction to the Schema.org information model: Make your data more useful in automated applications&lt;/a&gt;.
+*Payne, K, &amp; Verhey, C. (2021). &lt;a href=&quot;https://doi.org.10.5281/zenodo.4589090&quot; target=_blank&gt;How to use RDA crosswalks to recommend SDO markup in metadata&lt;/a&gt;.
+*Research Data Alliance Research Metadata Schemas Working Group (2021). &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing&quot; target=_blank&gt;Crosswalks form schemas to schema.org&lt;/a&gt;. 
 *Schema.org (2018). &lt;a href=&quot;https://github.com/schemaorg/schemaorg/wiki/Community-Examples&quot; target=_blank&gt;Community examples&lt;/a&gt;.
 *Schema.org (2018). &lt;a href=&quot;https://github.com/schemaorg/schemaorg/wiki/External-Resources&quot; target=_blank&gt;External resources&lt;/a&gt;.
 *W3C Community and Business Groups (n.d.). &lt;a href=&quot;https://www.w3.org/community/schemaorg/&quot; target=_blank&gt;Schema.org Community Group&lt;/a&gt;. 
-*World Data System-International Technology Office (2021). &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing&quot; target=_blank&gt;Crosswalks from schemas to schema.org&lt;/a&gt;. 
 
 Once you&#39;ve found out more about schema.org, you&#39;ll be in a position to start its implementation.
 
 &lt;&lt;button [[End this walk-through|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="17" name="Implementation Plan" tags="to-print" position="2149,60.66666666666667" size="200,200">!Harvestable Metadata Services: Implementation Plan
+</tw-passagedata><tw-passagedata pid="17" name="Implementation plan" tags="to-print" position="1510,31" size="200,100">!Harvestable Metadata Services: Implementation Plan
 
-&lt;&lt;button &quot;Print your plan&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UIBar.hide();window.print();&lt;&lt;/script&gt;&gt;&lt;&lt;/button&gt;&gt;  &lt;&lt;button [[End the walk-through|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button &quot;Print your plan&quot;&gt;&gt;&lt;&lt;script&gt;&gt;window.print();&lt;&lt;/script&gt;&gt;&lt;&lt;/button&gt;&gt;  
+//~~(To optimize the print layout, it is recommended to minimize the sidebar by clicking the &lt; button on the top right corner of the sidebar before clicking the “Print your plan” button)~~// 
+&lt;&lt;button [[End the walk-through|End]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 !!1. Repository Information
 &#39;&#39;a) Name of repository:&#39;&#39; &lt;&lt;print $repository&gt;&gt;
@@ -611,7 +626,7 @@ The project will create a harvestable metadata services, through which metadata 
 //Which goals are you striving for with this implementation of harvestable metadata services?//
 &lt;&lt;print $goals&gt;&gt;
 
-!!!c) Expected outcomes
+!!!c) Expected Outcomes
 //What outcomes would you expect to see? If possible, indicate a time frame in which you&#39;d expect these changes to occur?//
 &lt;&lt;print $outcomes&gt;&gt;
 
@@ -620,11 +635,11 @@ The project will create a harvestable metadata services, through which metadata 
 &lt;&lt;print $stakeholders&gt;&gt;
 
 !!5. Project Details
-!!!a) Aggregators/Harvesting Services targeted
+!!!a) Aggregators/Harvesting Services Targeted
 &lt;&lt;if $servicetype is &quot;none&quot;&gt;&gt;None
-&lt;&lt;elseif $servicetype is &quot;semantic&quot;&gt;&gt;Semantic aggregation (e.g.) Google Dataset Search
+&lt;&lt;elseif $servicetype is &quot;semantic&quot;&gt;&gt;Semantic aggregation (e.g., Google Dataset Search)
 &lt;&lt;elseif $servicetype is &quot;undefined&quot;&gt;&gt;
-&lt;&lt;elseif $servicetype is &quot;both&quot;&gt;&gt;Semantic aggregation (e.g. Google Dataset Search) in a separate implementation plan, and these metadata aggregator(s): &lt;&lt;print $aggrlist&gt;&gt;
+&lt;&lt;elseif $servicetype is &quot;both&quot;&gt;&gt;Semantic aggregation (e.g., Google Dataset Search) in a separate implementation plan, and these metadata aggregator(s): &lt;&lt;print $aggrlist&gt;&gt;
 &lt;&lt;else&gt;&gt;These metadata aggregator(s): &lt;&lt;print $aggrlist&gt;&gt;&lt;&lt;/if&gt;&gt;
 
 !!!b) Metadata Formats/Standards
@@ -633,9 +648,9 @@ The project will create a harvestable metadata services, through which metadata 
 	&lt;&lt;if $newstandards isnot &quot;&quot;&gt;&gt;It will be converted to these new standard(s): &lt;&lt;print $newstandards&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt; 
 &lt;&lt;/if&gt;&gt;
 
-!!!c) Metadata Transfer Protocols (e.g. APIs/ harvesting protocols)
+!!!c) Metadata Transfer Protocols (e.g., APIs/ harvesting protocols)
 &lt;&lt;if $aggrprotocol is &quot;match&quot; and $aggrsupport is &quot;notrequired&quot;&gt;&gt;The existing metadata catalogue is currently using these metadata transfer protocol(s): &lt;&lt;print $protocol&gt;&gt;
-The targeted metadata aggregator(s) support: &lt;&lt;print $newprotocols&gt;&gt;:
+The targeted metadata aggregator(s) support: &lt;&lt;print $newprotocols&gt;&gt;.
 The existing metadata transfer protocol is supported by the targeted aggregator(s). &lt;&lt;if $interopmd isnot &quot;&quot;&gt;&gt;Explanation: &lt;&lt;print $interopmd&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;elseif $aggrprotocol is &quot;notmatch&quot; and $aggrsupport is &quot;supported&quot;&gt;&gt;The existing metadata catalogue is currently using these metadata transfer protocol(s): &lt;&lt;print $protocol&gt;&gt;
 The targeted metadata aggregator(s) support: &lt;&lt;print $newprotocols&gt;&gt; 
@@ -647,13 +662,13 @@ The targeted metadata aggregator(s) cannot provide custom support for the new me
 The targeted metadata aggregator(s) support these protocols: &lt;&lt;print $newprotocols&gt;&gt;:&lt;&lt;/if&gt;&gt;
 
 
-!!!d) New repository components to be developed/built/upgraded
-&lt;&lt;if $viringo is true&gt;&gt;*Install Viringo on your custom repository, &#39;an OAI-PMH compatible provider for exposing PID related metadata&#39;, that is currently being used by DataCite and FRDR.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
+!!!d) New Repository Components to be Developed/Built/Upgraded
+&lt;&lt;if $viringo is true&gt;&gt;*Install Viringo on your custom repository, &#39;an OAI-PMH compatible provider for exposing PID related metadata&#39;, which is currently being used by DataCite and FRDR.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $pycsw is true&gt;&gt;*Create a catalogue service on your custom repository using pycsw, a Python implementation of the OGC CSW standard.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $customAPI is true&gt;&gt;*Work with your repository&#39;s IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $migrate is true&gt;&gt;*Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.&lt;&lt;elseif $aggrsupport is &quot;supported&quot;&gt;&gt;Since the targeted metadata aggregators can provide custom support under the existing infrastructure, new repository components are not required to develop/build/upgrade.&lt;&lt;/if&gt;&gt;
 
-!!!e) Additional repository developments/activities considered
+!!!e) Additional Repository Developments/Activities Considered
 //Do you have any other repository developments or activities that you want to consider in your workflow? 
 Some examples could be:
 - Converting metadata to an alternate format
@@ -665,11 +680,11 @@ Some examples could be:
 &lt;&lt;print $workflows&gt;&gt;
 
 !!6. Project Resources and Challenges
-!!!a) Resources needed:
+!!!a) Resources Needed:
 //For example, human effort, infrastructure upgrades, etc. (Don’t underestimate the human effort required for a harvestable metadata project!)//
 &lt;&lt;print $resources&gt;&gt;
 
-!!!b) Support from host organization
+!!!b) Support from Host Organization
 To what extent does your repository&#39;s host organization provide material and other support?
 &lt;&lt;print $support&gt;&gt;
 
@@ -688,7 +703,7 @@ To what extent does your repository&#39;s host organization provide material and
 !!!a) Metrics
 #Landing page views: &lt;&lt;if $views is true&gt;&gt;Yes&lt;&lt;elseif $view is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
 #Dataset downloads: &lt;&lt;if $downloads is true&gt;&gt;Yes&lt;&lt;elseif $downloads is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
-#Reuse in research: scholarly citations (e.g. with DOI and other PIDs). &lt;&lt;if $citations is true&gt;&gt;Yes&lt;&lt;elseif $citations is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
+#Reuse in research: scholarly citations (e.g., with DOI and other PIDs). &lt;&lt;if $citations is true&gt;&gt;Yes&lt;&lt;elseif $citations is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
 #References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.: &lt;&lt;if $mentions is true&gt;&gt;Yes&lt;&lt;elseif $mentions is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
 #Reuse by aggregation into other data products or services: &lt;&lt;if $aggreuse is true&gt;&gt;Yes&lt;&lt;elseif $aggreuse is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
 #Educational use: Appearance in course syllabi, workshops, etc.: &lt;&lt;if $educational is true&gt;&gt;Yes&lt;&lt;elseif $educational is false&gt;&gt;No&lt;&lt;else&gt;&gt;Yes / No&lt;&lt;/if&gt;&gt;
@@ -701,7 +716,7 @@ To what extent does your repository&#39;s host organization provide material and
 !!8. Other Implementation Plan Template
 &lt;div style=&quot;font-size: 12px;&quot;&gt;//Some examples of (broad-scope) data services development plans using CESSDA SaW (EU) and JISC (UK) guidance documents, tools, and templates have been collected in this document. A general outline of a detailed project plan for HMetS implementation is proposed below.
 a.	General Planning 
-i. Work packages
+i. Work Packages
 ii.  Complete Timeline
 iii.  Partnership Coordination
 iv.  Staffing and Project Management
@@ -713,18 +728,18 @@ c.	Operational plan (timeline after day 1)
   i.	Prototyping the service
   ii.	Testing plan
 d.	Conclusion 
-  i	Concluding remarks
+  i.	Concluding remarks
   ii.	Next steps//&lt;/div&gt;
 
-&lt;&lt;button [[End|Game over]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Custom support" tags="poof.ignore" position="1832,395.66666666666663" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;supported&quot;&gt;&gt;
+&lt;&lt;button [[End the walk-through|End]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Custom support" tags="" position="1572,374" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;supported&quot;&gt;&gt;
 &lt;&lt;set $aggrprotocol = &quot;notmatch&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
-!Requesting Custom Support for your Repository Platform
+!Requesting custom support for your repository platform
 Some services are able to provide custom support to potential providers of repository metadata. Is this the case for your preferred aggregator(s)?
 
 #Yes, the aggregator has a way of providing custom support to your repository&#39;s existing infrastructure.  &lt;&lt;button [[Excellent! Let&#39;s continue|Measuring success]]&gt;&gt;&lt;&lt;/button&gt;&gt; 
 #No, the aggregator has no support desk, or the service does not offer custom support for your specific infrastructure.  &lt;&lt;button [[Explore your options|Software upgrades]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="19" name="Measuring success" tags="poof.ignore" position="1987,600.0000000000001" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;supported&quot;&gt;&gt;
+</tw-passagedata><tw-passagedata pid="19" name="Measuring success" tags="" position="1687,526" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;supported&quot;&gt;&gt;
 &lt;&lt;set $congrats = &quot;t&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Measuring success
 &lt;&lt;if $servicetype is &quot;semantic&quot;&gt;&gt;You have decided to enhance your existing metadata records in the repository with semantic metadata, using schema.org.
@@ -732,27 +747,24 @@ Some services are able to provide custom support to potential providers of repos
 You have also decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
-*Described our repository’s current infrastructure
+*Described your repository’s current infrastructure
 *Narrowed down your aggregation options to a set of preferred metadata aggregators
 *Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
 &lt;&lt;elseif $servicetype is &quot;traditional&quot;&gt;&gt;
 You have decided to create a traditional metadata aggregation service, to be exposed to metadata harvesters and shared via registries, and you are working on creating an implementation plan.
 
 So far, you have:
-*Described our repository’s current infrastructure
+*Described your repository’s current infrastructure
 *Narrowed down your aggregation options to a set of preferred metadata aggregators
-*Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected
-&lt;&lt;else&gt;&gt;
-&lt;&lt;/if&gt;&gt;
-
+*Identified the gaps between your infrastructure and the minimum requirements to be aggregated by the aggregators you’ve selected&lt;&lt;else&gt;&gt;&lt;&lt;/if&gt;&gt;
 This section addresses two essential components of your implementation plan: A consumption benchmark and a method to establish whether your repository has reached that benchmark.
 
-To begin, you need to know how to measure your repository’s “success”. The &lt;a href=&quot;https://www.projectcounter.org/wp-content/uploads/2017/07/Friendly_Guide_Providers_20170706-1.pdf&quot; target=_blank&gt;COUNTER Code of Practice&lt;/a&gt; gives a framework to measure repositories’ impact in the research data community. It has become the standard framework for repository metrics.
+To begin, you need to know how to measure your repository’s “success”. The &lt;a href=&quot;https://www.projectcounter.org/code-of-practice-five-sections/abstract/&quot; target=_blank&gt;COUNTER Code of Practice&lt;/a&gt; gives a framework to measure repositories’ impact in the research data community. It has become the standard framework for repository metrics.
 
 How does your repository currently track your datasets’ impact and reach? (select all that apply)
 &lt;&lt;checkbox &quot;$views&quot; false true autocheck&gt;&gt;Landing page views. 
 &lt;&lt;checkbox &quot;$downloads&quot; false true autocheck&gt;&gt;Dataset downloads.
-&lt;&lt;checkbox &quot;$citations&quot; false true autocheck&gt;&gt;Reuse in research: scholarly citations (e.g. with DOI and other PIDs).
+&lt;&lt;checkbox &quot;$citations&quot; false true autocheck&gt;&gt;Reuse in research: scholarly citations (e.g., with DOI and other PIDs).
 &lt;&lt;checkbox &quot;$mentions&quot; false true autocheck&gt;&gt;References in other online scholarly communication platforms: Links and mentions on social media, blogs, websites, etc.
 &lt;&lt;checkbox &quot;$aggreuse&quot; false true autocheck&gt;&gt;Reuse by aggregation into other data products or services.
 &lt;&lt;checkbox &quot;$educational&quot; false true autocheck&gt;&gt;Educational use: Appearance in course syllabi, workshops, etc.
@@ -762,8 +774,8 @@ How does your repository currently track your datasets’ impact and reach? (sel
 &#39;&#39;Benchmarks and methods&#39;&#39;
 Could you give a brief description of the framework you plan to use to assess and evaluate a harvestable metadata service implementation at your repository?
 &lt;&lt;textarea &quot;$evalframework&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
-&lt;&lt;button [[Submit &amp; continue|This and that]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="20" name="Repository basics" tags="poof.ignore" position="525.3333333333334,589.3333333333334" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;button [[Submit &amp; continue|Project details]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+</tw-passagedata><tw-passagedata pid="20" name="Repository basics" tags="" position="386,524" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;set $repository = &quot;&quot;&gt;&gt;
 &lt;&lt;set $orgname = &quot;&quot;&gt;&gt;
 &lt;&lt;set $summary = &quot;&quot;&gt;&gt;
@@ -790,13 +802,13 @@ Could you give a brief description of the framework you plan to use to assess an
 What is the name of your repository? &lt;&lt;textbox &quot;$repository&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 What is/are the name(s) of your repository&#39;s host organization(s)?&lt;&lt;textbox &quot;$orgname&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 
-How would you describe your repository&#39;s stakeholders and user base? You can define your stakeholders as the users of your repository&#39;s data, or more broadly as anyone who will benefit from this project, e.g. institutions wanting to strengthen their international/interdisciplinary profile, or promote their research outputs/data assets.
+How would you describe your repository&#39;s stakeholders and user base? You can define your stakeholders as the users of your repository&#39;s data, or more broadly as anyone who will benefit from this project, e.g., institutions wanting to strengthen their international/interdisciplinary profile, or promote their research outputs/data assets.
 &lt;&lt;textarea &quot;$stakeholders&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 !!Next steps
 Do you have the authority to spearhead a project of this nature, or have you already been given clearance to do so by someone who has that authority?
 #Yes, you have that authority. &lt;&lt;button [[Start planning|Expected outcomes]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#You need to ask for authorization before moving forward with this project.  &lt;&lt;button [[Get permission!|Making the case]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="21" name="Expected outcomes" tags="poof.ignore" position="650.3333333333334,583.3333333333334" size="100,100">!Project objectives
+#You need to ask for authorization before moving forward with this project.  &lt;&lt;button [[Get permission!|Get permission]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+</tw-passagedata><tw-passagedata pid="21" name="Expected outcomes" tags="" position="510,526" size="100,100">!Project objectives
 This section is to help you formulate your general goals and the expected outcomes. The outcomes should be as concrete as possible, and be associated with metrics and methods to benchmark and compare the repository&#39;s performance relative to those outcomes.
 //(Metrics and methods will come up again in a later passage of this narrative.)//
 
@@ -804,34 +816,34 @@ This section is to help you formulate your general goals and the expected outcom
 Which goals are you striving for with the implementation of harvestable metadata services? 
 &lt;&lt;textarea &quot;$goals&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
 
-&#39;&#39;Expected Outcomes&#39;&#39;
+&#39;&#39;Expected outcomes&#39;&#39;
 What outcomes would you expect to see? If possible, indicate a time frame in which you&#39;d expect these changes to occur.
 &lt;&lt;textarea &quot;$outcomes&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;
-&lt;&lt;button [[Submit &amp; continue|Catalogue]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+&lt;&lt;button [[Submit &amp; continue|Metadata catalogue]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
-Or if you&#39;d rather not provide that information yet:  &lt;&lt;button[[Skip to the next step|Catalogue]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="Software upgrades" tags="poof.ignore" position="2070,407.3333333333333" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;notsupported&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+Or if you&#39;d rather not provide that information yet:  &lt;&lt;button[[Skip to the next step|Metadata catalogue]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="Software upgrades" tags="" position="1711,375" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $aggrsupport = &quot;notsupported&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Repository upgrades and other options
 If your preferred aggregator(s) cannot support your existing infrastructure, you still have a few options:
-&lt;&lt;checkbox &quot;$viringo&quot; false true autocheck&gt;&gt;Install &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt; on your custom repository, &#39;an OAI-PMH compatible provider for exposing PID related metadata&#39;, that is currently being used by DataCite and FRDR.
+&lt;&lt;checkbox &quot;$viringo&quot; false true autocheck&gt;&gt;Install &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt; on your custom repository, &#39;an OAI-PMH compatible provider for exposing PID related metadata&#39;, currently being used by &lt;a href=&quot;https://datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt; and &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/&quot; target=_blank&gt;&lt;abbr title=&quot;Federated Research Data Repository&quot;&gt;FRDR&lt;/abbr&gt;&lt;/a&gt;.
 &lt;&lt;checkbox &quot;$pycsw&quot; false true autocheck&gt;&gt;Install &lt;a href=&quot;https://pycsw.org/&quot; target=_blank&gt;pycsw&lt;/a&gt;, an open-source implementation of &lt;a href=&quot;http://www.opengis.net/doc/IS/cat/3.0&quot; target=_blank&gt;OGC-CSW&lt;/a&gt; in Python. 
 &lt;&lt;checkbox &quot;$customAPI&quot; false true autocheck&gt;&gt;Work with your repository&#39;s IT department to create the functionality you need to interact with the APIs and protocols required by the aggregators of your choice.
 &lt;&lt;checkbox &quot;$migrate&quot; false true autocheck&gt;&gt;Migrate some, or all, of your datasets to a subject repository that does have the ability to provide metadata to aggregators. But this might involve having to adopt a different metadata application profile, or a new schema altogether.
 &lt;&lt;button [[Save option(s) &amp; continue|Measuring success]]&gt;&gt;&lt;&lt;/button&gt;&gt;
 
 If none of this seems to be a possibility for now, &lt;&lt;button [[please let us walk you to the exit|Pre-final]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="23" name="Both-Aggregator" tags="poof.ignore" position="1479.666666666667,694.3333333333334" size="100,100">!Find a metadata aggregator
+</tw-passagedata><tw-passagedata pid="23" name="Both-traditional" tags="" position="1277,575" size="100,100">!Find a metadata aggregator
 
 The &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589050&quot; target=_blank&gt;Searchable Index of Metadata Aggregators&lt;/a&gt;, a new product by the International Technology Office (WDS-ITO), contains up-to-date information about 70 platforms that are currently providing metadata aggregation services. To search this database, &lt;a href=&quot;https://doi.org/10.5281/zenodo.4589050&quot; target=_blank&gt;download it from Zenodo&lt;/a&gt;. The package contains an MS Access database with its associated documentation, as well as a PDF copy of the entire index.
 
 !!The basics
-Some platforms only aggregate metadata related to a specific region, for example the &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository(FRDR)&lt;/a&gt;, or &lt;a href=&quot;https://researchdata.edu.au/&quot; target=_blank&gt;Research Data Australia&lt;/a&gt;. Other platforms only aggregate metadata related to a specific subject domain, like &lt;a href=&quot;https://www.clarin.eu/content/virtual-language-observatory-vlo&quot; target=_blank&gt;Clarin&#39;s Virtual Language Observatory&lt;/a&gt;.
+Some platforms only aggregate metadata related to a specific region, for example the &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, or &lt;a href=&quot;https://researchdata.edu.au/&quot; target=_blank&gt;Research Data Australia&lt;/a&gt;. Other platforms only aggregate metadata related to a specific subject domain, like &lt;a href=&quot;https://www.clarin.eu/content/virtual-language-observatory-vlo&quot; target=_blank&gt;Clarin&#39;s Virtual Language Observatory&lt;/a&gt;.
 
-Some examples of international, multidisciplinary metadata aggregators include the European open science project &lt;a href=&quot;https://explore.openaire.eu/&quot; target=_blank&gt;OpenAIRE&lt;/a&gt;, the Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, and &lt;a href=&quot;https://www.lareferencia.info/en/&quot; target=_blank&gt;LA Referencia&lt;/a&gt; in Latin America. Commercial aggregators such as &lt;a href=&quot;https://clarivate.com/webofsciencegroup/solutions/webofscience-data-citation-index/&quot; target=_blank&gt;Clarivate&#39;s Data Citation Index(DCI)&lt;/a&gt;, and &lt;a href=&quot;https://data.mendeley.com/&quot; target=_blank&gt;Elsevier&#39;s Mendeley Data&lt;/a&gt; also aggregate data from all regions and subject domains.
+Some examples of international, multidisciplinary metadata aggregators include the European open science project &lt;a href=&quot;https://explore.openaire.eu/&quot; target=_blank&gt;OpenAIRE&lt;/a&gt;, the Canadian &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/?locale=en&quot; target=_blank&gt;Federated Research Data Repository (FRDR)&lt;/a&gt;, and &lt;a href=&quot;https://www.lareferencia.info/en/&quot; target=_blank&gt;LA Referencia&lt;/a&gt; in Latin America. Commercial aggregators such as &lt;a href=&quot;https://clarivate.com/webofsciencegroup/solutions/webofscience-data-citation-index/&quot; target=_blank&gt;Clarivate&#39;s Data Citation Index (DCI)&lt;/a&gt;, and &lt;a href=&quot;https://data.mendeley.com/&quot; target=_blank&gt;Elsevier&#39;s Mendeley Data&lt;/a&gt; also aggregate data from all regions and subject domains.
 
 !!Making choices
 When choosing metadata aggregator(s), there are a few things to consider:
 !!!Your community
-&lt;div style=&quot;margin-left: 1em;&quot;&gt;What data practices are established, or emerging in your community?&lt;/div&gt;
+&lt;div style=&quot;margin-left: 1em;&quot;&gt;What data practices are established or emerging in your community?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;What harvesters or repositories are being used in your subject area?&lt;/div&gt;
 !!!Findability goals
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;Who needs to be able to find your data?&lt;/div&gt;
@@ -843,35 +855,36 @@ When choosing metadata aggregator(s), there are a few things to consider:
 !!!Interoperability
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;How far will your current infrastructure take you?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 2em;&quot;&gt;&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Find services that already support your existing metadata and endpoints/protocols.//
-&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Software modules can bridge the gap between your (custom) repository and the harvester, e.g. &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt;, used by DataCite and FRDR, or &lt;a href=&quot;https://pycsw.org/&quot; target=_blank&gt;pycsw&lt;/a&gt;, an open-source implementation of the &lt;a href=&quot;https://docs.opengeospatial.org/is/12-168r6/12-168r6.html&quot; target=_blank&gt;OGC CSW&lt;/a&gt; standard for catalogue services.//&lt;/div&gt;
+&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Software modules can bridge the gap between your (custom) repository and the harvester, e.g., &lt;a href=&quot;https://github.com/datacite/viringo&quot; target=_blank&gt;Viringo&lt;/a&gt;, used by &lt;a href=&quot;https://datacite.org/&quot; target=_blank&gt;DataCite&lt;/a&gt; and &lt;a href=&quot;https://www.frdr-dfdr.ca/repo/&quot; target=_blank&gt;&lt;abbr title=&quot;Federated Research Data Repository&quot;&gt;FRDR&lt;/abbr&gt;&lt;/a&gt;, or &lt;a href=&quot;https://pycsw.org/&quot; target=_blank&gt;pycsw&lt;/a&gt;, an open-source implementation of the &lt;a href=&quot;https://docs.opengeospatial.org/is/12-168r6/12-168r6.html&quot; target=_blank&gt;OGC CSW&lt;/a&gt; standard for catalogue services.//&lt;/div&gt;
 &lt;div style=&quot;margin-left: 1em;&quot;&gt;Is your repository platform not supported by default?&lt;/div&gt;
 &lt;div style=&quot;margin-left: 2em;&quot;&gt;&lt;span style=&#39;font-size:23px;&#39;&gt;&amp;#8667;&lt;/span&gt;//Ask aggregators about custom support options!//&lt;/div&gt;
 
 !!Your options:
-#I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): &lt;br/&gt;&lt;&lt;textarea &quot;$aggrlist&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Metadata interoperability]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-#I&#39;d rather not fill out this part yet. &lt;&lt;button [[Skip to the next step|Metadata interoperability]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Both-Semantic" tags="poof.ignore" position="1334,701.3333333333333" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;both&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
+#I would like to target these aggregators (Try to include at least the name, the URL of the main page, and the contact method of the aggregator(s)): &lt;br/&gt;&lt;&lt;textarea &quot;$aggrlist&quot; &quot;&quot;&gt;&gt;&lt;small&gt;//[optional]//&lt;/small&gt;  &lt;&lt;button [[Submit &amp; continue|Inter-operable metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+#I&#39;d rather not fill out this part yet. &lt;&lt;button [[Skip to the next step|Inter-operable metadata]]&gt;&gt;&lt;&lt;/button&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Both-semantic" tags="" position="1157,574" size="100,100">&lt;&lt;nobr&gt;&gt;&lt;&lt;set $servicetype = &quot;both&quot;&gt;&gt;&lt;&lt;/nobr&gt;&gt;
 !Semantic metadata and Schema.org
-Semantic markup (i.e. Schema.org) is built into a metadata standard. As previously mentioned, &lt;abbr title=&quot;Schema Dot Org&quot;&gt;SDO&lt;/abbr&gt; is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt;. 
+Semantic markup (i.e., Schema.org) is built into a metadata standard. As previously mentioned, &lt;abbr title=&quot;Schema Dot Org&quot;&gt;SDO&lt;/abbr&gt; is implemented in the metadata landing page. That landing page contains a pointer to the data resource in the hosting repository, or instructions on how to access the data. Bots then parse the web pages, index them and include them in &lt;a href=&quot;https://datasetsearch.research.google.com/&quot; target=_blank&gt;Google Dataset Search (GDSS)&lt;/a&gt;. 
 
 Importantly for those who manage sensitive or restricted data that are subject to privacy concerns, once a dataset is discovered in GDSS, the user is directed back to the repository to obtain the data. The access restrictions and protocols for data sharing remain as agreed upon during the submission process, and they are determined and maintained at the repository.
 
 Here are some resources for you to understand more about SDO and how to implement SDO into your repository:
 *Benjelloun, O, Chen, S., &amp; Noy, N. (2020). &lt;a href=&quot;https://arxiv.org/abs/2006.06894&quot; target=_blank&gt;Google Dataset Search by the numbers&lt;/a&gt;.
-*FAIRsFAIR (2020). &lt;a href=&quot;https://github.com/FAIRsFAIR/FAIRSemantics&quot; target=_blank&gt;FAIR Semantics&lt;/a&gt;
-*Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.;  Gräf, F., Hallett, R., Bernal Llinares, M., &amp; Clark, T. (2018). &lt;a href=&quot;https://doi.org/10.5281/zenodo.1202174&quot; target=_blank&gt;Listing of data repositories that embed schema.org metadata in dataset landing pages&lt;/a&gt;.
+*FAIRsFAIR (2020). &lt;a href=&quot;https://github.com/FAIRsFAIR/FAIRSemantics&quot; target=_blank&gt;FAIR Semantics&lt;/a&gt;.
+*Fenner, M., Crosas, M., Durand, G., Wimalaratne, S.,  Gräf, F., Hallett, R., Bernal Llinares, M., &amp; Clark, T. (2018). &lt;a href=&quot;https://doi.org/10.5281/zenodo.1202174&quot; target=_blank&gt;Listing of data repositories that embed schema.org metadata in dataset landing pages&lt;/a&gt;.
 *Ogbuji, U. (2017). &lt;a href=&quot;https://developer.ibm.com/articles/wa-schemaorg1/&quot; target=_blank&gt;Introduction to the Schema.org information model: Make your data more useful in automated applications&lt;/a&gt;.
+*Payne, K, &amp; Verhey, C. (2021). &lt;a href=&quot;https://doi.org.10.5281/zenodo.4589090&quot; target=_blank&gt;How to use RDA crosswalks to recommend SDO markup in metadata&lt;/a&gt;.
+*Research Data Alliance Research Metadata Schemas Working Group (2021). &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing&quot; target=_blank&gt;Crosswalks form schemas to schema.org&lt;/a&gt;. 
 *Schema.org (2018). &lt;a href=&quot;https://github.com/schemaorg/schemaorg/wiki/Community-Examples&quot; target=_blank&gt;Community examples&lt;/a&gt;.
 *Schema.org (2018). &lt;a href=&quot;https://github.com/schemaorg/schemaorg/wiki/External-Resources&quot; target=_blank&gt;External resources&lt;/a&gt;.
-*W3C Community and Business Groups (n.d.). &lt;a href=&quot;https://www.w3.org/community/schemaorg/&quot; target=_blank&gt;Schema.org Community Group&lt;/a&gt;. 
-*World Data System-International Technology Office (2021). &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1P6WH8h4OnIVR9UJj3FcOebNUpLnKNBCuvEp3NsLRho4/edit?usp=sharing&quot; target=_blank&gt;Crosswalks from schemas to schema.org&lt;/a&gt;. 
+*W3C Community and Business Groups (n.d.). &lt;a href=&quot;https://www.w3.org/community/schemaorg/&quot; target=_blank&gt;Schema.org Community Group&lt;/a&gt;.  
 
 Once you&#39;ve found out more about schema.org, you&#39;ll be in a position to start its implementation.
 
-&lt;&lt;button [[Continue working on your implementation plan|Both-Aggregator]]&gt;&gt;&lt;&lt;/button&gt;&gt;
-</tw-passagedata><tw-passagedata pid="25" name="PassageFooter" tags="" position="41,783.3333333333334" size="200,100">
+&lt;&lt;button [[Continue working on your implementation plan|Both-traditional]]&gt;&gt;&lt;&lt;/button&gt;&gt;
+</tw-passagedata><tw-passagedata pid="25" name="PassageFooter" tags="" position="35,199" size="200,100">
 
 
-~~This harvestable metadata services implementation plan template was developed by the &lt;a href=&quot;https://www.worlddatasystem.org/&quot; target=&quot;_blank&quot;&gt;World Data System - International Technology Office&lt;/a&gt; and funded under the &lt;a href=&quot;https://engagedri.ca/&quot; target=&quot;_blank&quot;&gt;NDRIO&lt;/a&gt; collaborative agreement number 51387-50326.~~</tw-passagedata><tw-passagedata pid="26" name="PassageHeader" tags="" position="38,890" size="200,100">&lt;&lt;nobr&gt;&gt;&lt;div id=&quot;HASH&quot; class=&quot;blue-msg&quot;&gt;
+~~This harvestable metadata services implementation plan template was developed by the &lt;a href=&quot;https://www.worlddatasystem.org/&quot; target=&quot;_blank&quot;&gt;World Data System - International Technology Office&lt;/a&gt; and funded under the &lt;a href=&quot;https://engagedri.ca/&quot; target=&quot;_blank&quot;&gt;NDRIO&lt;/a&gt; collaborative agreement number 51387-50326.~~</tw-passagedata><tw-passagedata pid="26" name="PassageHeader" tags="" position="36,76" size="200,100">&lt;&lt;nobr&gt;&gt;&lt;div id=&quot;HASH&quot; class=&quot;blue-msg&quot;&gt;
 &lt;span id=&quot;time-HASH&quot; class=&quot;smalltext&quot;&gt;&lt;a href=&quot;https://www.worlddatasystem.org/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.worlddatasystem.org/++theme++wds.site.theme/images/wds_logo.png&quot; alt=&quot;World Data System&quot; style=&quot;width: 5em;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.oceannetworks.ca/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.oceannetworks.ca/sites/default/files/onclogo_135x135_1.png&quot; alt=&quot;Ocean Networks Canada&quot; style=&quot;width: 5em;&quot;&gt;&lt;/a&gt;&lt;/span&gt;
 &lt;span class=&quot;ios-circle&quot;&gt;&lt;a href=&quot;https://engagedri.ca/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://engagedri.ca/wp-content/uploads/2020/02/NDRIO-logo-2.svg&quot; alt=&quot;NDRIO&quot; style=&quot;width: 15em;&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;&lt;/nobr&gt;&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
