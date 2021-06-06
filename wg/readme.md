@@ -16,13 +16,15 @@ The [HMetS-WG](https://www.worlddatasystem.org/community/working-groups/harvesta
 |Submitting|October|
 
 ## Working Meetings
-Meetings: Joint, synchronous sessions (e.g. Zoom) on alternating schedule (Atlantic/Pacific). 
-Checkpoints: Asynchronous instance (e.g. via Slack and/or Overleaf) for members to send their progress updates, ask questions, share and resolve obstacles.
-tbd: To be determined later, depending on group's needs.
+### Type
+- Meetings: Joint, synchronous sessions (e.g. Zoom) on alternating schedule (Atlantic/Pacific). 
+- Checkpoints: Asynchronous instance (e.g. via Slack and/or Overleaf) for members to send their progress updates, ask questions, share and resolve obstacles.
+- tbd: To be determined later, depending on group's needs.
 
-WG = Writing Group
-WG-Coord = Co-chairs and ITO
-CWG = Core Writing Group (WG-Coord and others)
+### Subgroups
+- WG = Writing Group
+- WG-Coord = Co-chairs and ITO
+- CWG = Core Writing Group (WG-Coord and others)
 
 |#|Type|Group|Target date|Goals|
 |---|---|---|---|---|
