@@ -35,7 +35,7 @@ CWG = Core Writing Group (WG-Coord and others)
 |7|Async|WG|August|Checkpoint|
 |8|Async|WG|August|Checkpoint|
 |9|Meeting|CWG|Aug-Sep|Proposed 1st draft and outline of revisions for group approval|
-|10|WG|Aug-Sep|Approve 1st draft and distribute revision work|
+|10|Meeting|WG|Aug-Sep|Approve 1st draft and distribute revision work|
 |11|tbd|WG|September|Progress review, pending issues|
 |12|tbd|CWG|September|Review progress (ideally: final draft)|
 |13|Meeting|WG|October|Pre-submission meeting: Approve final version, statements of contribution, acknowledgements, other details.|
