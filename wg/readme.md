@@ -25,7 +25,7 @@ WG-Coord = Co-chairs and ITO
 CWG = Core Writing Group (WG-Coord and others)
 
 |#|Type|Group|Target date|Goals|
-|---|---|---|---|
+|---|---|---|---|---|
 |1|Meeting|WG-Coord|April 27|Review & refine group's proposed work plan|
 |2|Meeting|WG|June|Review & approve work plan; assign roles/sections to writers|
 |3|Async|WG|June|Checkpoint|
