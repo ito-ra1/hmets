@@ -16,22 +16,26 @@ The [HMetS-WG](https://www.worlddatasystem.org/community/working-groups/harvesta
 |Submitting|October|
 
 ## Working Meetings
-Joint sessions, alternating schedule (Atlantic/Pacific)
-WG = Writing Group
-CWG = Core Writing Group (WG coordination, co-chairs and/or other leading members)
+Meetings: Joint, synchronous sessions (e.g. Zoom) on alternating schedule (Atlantic/Pacific). 
+Checkpoints: Asynchronous instance (e.g. via Slack and/or Overleaf) for members to send their progress updates, ask questions, share and resolve obstacles.
+tbd: To be determined later, depending on group's needs.
 
-|Meeting|Group|Target date|Goals|
+WG = Writing Group
+WG-Coord = Co-chairs and ITO
+CWG = Core Writing Group (WG-Coord and others)
+
+|#|Type|Group|Target date|Goals|
 |---|---|---|---|
-|1|WG Coordination|April 27|Review & refine group's proposed work plan|
-|2|June|WG|Review & update work plan; assign roles/sections to writers|
-|3|June|WG|Progress updates, share and resolve obstacles|
-|4|July|WG|Progress updates, share and resolve obstacles|
-|5|July|WG|Progress review, pending issues|
-|6|Late July|CWG|Progress review|
-|7|August|WG|Progress updates, share and resolve any obstacles|
-|8|August|WG|Progress updates, share and resolve any obstacles|
-|9|Aug-Sep|CWG|Proposed 1st draft and outline of revisions for group approval|
-|10|Aug-Sep|WG|Approve 1st draft and distribute revision work|
-|11|September|WG|Progress review, pending issues|
-|12|September|CWG|Review progress (ideally: final draft)|
-|13|October|WG|Pre-submission meeting: Approve final version, statements of contribution, acknowledgements, other details.|
+|1|Meeting|WG-Coord|April 27|Review & refine group's proposed work plan|
+|2|Meeting|WG|June|Review & approve work plan; assign roles/sections to writers|
+|3|Async|WG|June|Checkpoint|
+|4|Async|WG|July|Checkpoint|
+|5|Meeting|WG|July|Progress review, pending issues|
+|6|Meeting|CWG|Late July|Progress review|
+|7|Async|WG|August|Checkpoint|
+|8|Async|WG|August|Checkpoint|
+|9|Meeting|CWG|Aug-Sep|Proposed 1st draft and outline of revisions for group approval|
+|10|WG|Aug-Sep|Approve 1st draft and distribute revision work|
+|11|tbd|WG|September|Progress review, pending issues|
+|12|tbd|CWG|September|Review progress (ideally: final draft)|
+|13|Meeting|WG|October|Pre-submission meeting: Approve final version, statements of contribution, acknowledgements, other details.|
