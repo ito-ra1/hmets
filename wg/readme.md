@@ -8,9 +8,9 @@ The [HMetS-WG](https://www.worlddatasystem.org/community/working-groups/harvesta
 1. [Paper contents and structure](https://wdsito.sharepoint.com/:w:/s/WDS-ITO/HMetS/EbADsn_EY7dPjw2wWAk7f1kBeKNlDpNG5ljY1VaGhbnGDA?e=e8rKNa): Outline of proposed sections (for group discussion).
   
 ## Timeline
-|Proposed Timeline June-October 2021|  |
+|Proposed Timeline July-October 2021|  |
 |------------------------------------- |----------------|
-|Planning|Jun 15-Jul 15|
+|Planning|Jul 1-Jul 15|
 |Writing|Jul 15-Sep 15|
 |Revising|Sep 15-30|
 |Submitting|October|
@@ -29,11 +29,11 @@ The [HMetS-WG](https://www.worlddatasystem.org/community/working-groups/harvesta
 |#|Type|Group|Target date|Goals|
 |---|---|---|---|---|
 |1|Meeting|WG-Coord|April 27|Review & refine group's proposed work plan|
-|2|Meeting|WG|June|Review & approve work plan; assign roles/sections to writers|
-|3|Async|WG|June|Checkpoint|
+|2|Meeting|WG|July|Review & approve work plan; assign roles/sections to writers|
+|3|Async|WG|July|Checkpoint|
 |4|Async|WG|July|Checkpoint|
-|5|Meeting|WG|July|Progress review, pending issues|
-|6|Meeting|CWG|Late July|Progress review|
+|5|Meeting|WG|Early August|Progress review, pending issues|
+|6|Meeting|CWG|Early August|Progress review|
 |7|Async|WG|August|Checkpoint|
 |8|Async|WG|August|Checkpoint|
 |9|Meeting|CWG|Aug-Sep|Proposed 1st draft and outline of revisions for group approval|
