@@ -7,6 +7,7 @@ The [HMetS-WG](https://www.worlddatasystem.org/community/working-groups/harvesta
 1. [Collaboration framework](https://wdsito.sharepoint.com/:w:/s/WDS-ITO/HMetS/EaJbV31jr45NjDMK7LMM88EBAlZW74uCeYF5QXeCJxiy4Q?e=eMXwCd): Process and tools for collaboration.
 2. [Paper contents and structure](https://wdsito.sharepoint.com/:w:/s/WDS-ITO/HMetS/EbADsn_EY7dPjw2wWAk7f1kBeKNlDpNG5ljY1VaGhbnGDA?e=e8rKNa): Outline of proposed sections (for group discussion).
 3. [Null-draft](https://www.dropbox.com/s/zfpt59k064ao1v2/HMetS-WG_UseCases_WorkingDraft.docx) (also on [Overleaf LaTeX](https://www.overleaf.com/7338692282sqjzhcrpgbkr))
+4. [Other working files](https://wdsito.sharepoint.com/:f:/s/WDS-ITO/HMetS/Ek2HYrq4CUdOv9iaOn0OTx8B91F4fk2xnOYlcIH5bVfkXQ?e=QFr3cG) on SharePoint.
 
 ## Working Meetings
 ### Type
